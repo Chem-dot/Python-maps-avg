@@ -120,8 +120,8 @@ def submit():
             excel_file_path = os.path.join(base_dir, f"{cleaned_origin}_to_{cleaned_destination}.xlsx")
             df = pd.read_excel(excel_file_path)
             avg_e = int(df['Total Duration (sec)'].iloc[1:].mean() / 60)
-            Origin = df.at[1, 'origin']
-            Destination = df.at[1, 'destination']
+            Origin = df.at[1, 'origin'].title()
+            Destination = df.at[1, 'destination'].title()
             num_rows = df.shape[0]
             logger.info(f"The average travel time from {Origin} to {Destination} is: {avg_e} minutes over the past {num_rows} days")
             print(f"The average travel time from {Origin} to {Destination} is: {avg_e} minutes over the past {num_rows} days")

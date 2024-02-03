@@ -1,3 +1,4 @@
 .gitignore
 *.xlsx
 *.txt
+logs.txt

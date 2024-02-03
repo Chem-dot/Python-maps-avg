@@ -235,3 +235,68 @@
 2024-02-03 19:38:55,955 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 19:38:55] "GET /home.html HTTP/1.1" 200 -
 2024-02-03 19:39:03,570 INFO submit(126) The average travel time from delft to den haag is: 27 minutes over the past 2 days
 2024-02-03 19:39:03,582 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 19:39:03] "POST /submit HTTP/1.1" 200 -
+2024-02-03 19:47:22,607 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 19:47:22] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-03 19:47:29,599 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 19:47:29] "GET /home.html HTTP/1.1" 200 -
+2024-02-03 19:47:43,195 INFO submit(126) The average travel time from delft to den haag is: 27 minutes over the past 2 days
+2024-02-03 19:47:43,200 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 19:47:43] "POST /submit HTTP/1.1" 200 -
+2024-02-03 19:56:05,156 INFO _log(96)  * Detected change in 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\working 3.0.py', reloading
+2024-02-03 19:56:22,069 INFO _log(96)  * Restarting with stat
+2024-02-03 19:56:24,081 WARNING _log(96)  * Debugger is active!
+2024-02-03 19:56:24,087 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-03 19:56:29,817 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-03 19:56:29,817 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-03 19:56:29,825 INFO _log(96)  * Restarting with stat
+2024-02-03 19:56:31,603 WARNING _log(96)  * Debugger is active!
+2024-02-03 19:56:31,606 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-03 19:56:34,420 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 19:56:34] "GET / HTTP/1.1" 200 -
+2024-02-03 19:56:45,012 INFO submit(126) The average travel time from Delft to Den Haag is: 27 minutes over the past 2 days
+2024-02-03 19:56:45,027 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 19:56:45] "POST /submit HTTP/1.1" 200 -
+2024-02-03 19:57:22,306 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-03 19:57:22,306 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-03 19:57:22,314 INFO _log(96)  * Restarting with stat
+2024-02-03 19:57:24,050 WARNING _log(96)  * Debugger is active!
+2024-02-03 19:57:24,057 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-03 19:57:25,590 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 19:57:25] "GET / HTTP/1.1" 200 -
+2024-02-03 19:57:36,771 INFO submit(126) The average travel time from Delft to Den Haag is: 27 minutes over the past 2 days
+2024-02-03 19:57:36,803 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 19:57:36] "POST /submit HTTP/1.1" 200 -
+2024-02-03 20:02:29,617 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-03 20:02:29,622 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-03 20:02:29,625 INFO _log(96)  * Restarting with stat
+2024-02-03 20:02:31,429 WARNING _log(96)  * Debugger is active!
+2024-02-03 20:02:31,444 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-03 20:02:36,548 INFO submit(126) The average travel time from Delft to Den Haag is: 27 minutes over the past 2 days
+2024-02-03 20:02:36,566 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 20:02:36] "POST /submit HTTP/1.1" 200 -
+2024-02-03 20:02:41,589 INFO submit(126) The average travel time from Delft to Den Haag is: 27 minutes over the past 2 days
+2024-02-03 20:02:41,599 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 20:02:41] "POST /submit HTTP/1.1" 200 -
+2024-02-03 20:17:22,888 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-03 20:17:22,888 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-03 20:17:22,895 INFO _log(96)  * Restarting with stat
+2024-02-03 20:17:24,540 WARNING _log(96)  * Debugger is active!
+2024-02-03 20:17:24,556 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-03 20:22:02,383 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-03 20:22:02,386 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-03 20:22:02,388 INFO _log(96)  * Restarting with stat
+2024-02-03 20:22:04,286 WARNING _log(96)  * Debugger is active!
+2024-02-03 20:22:04,286 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-03 20:22:13,146 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 20:22:13] "GET /home.html HTTP/1.1" 200 -
+2024-02-03 20:22:21,554 INFO save_to_excel(65) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\jos\delft_to_den_haag.xlsx
+2024-02-03 20:22:21,569 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 20:22:21] "POST /submit HTTP/1.1" 200 -
+2024-02-03 20:22:24,578 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 20:22:24] "GET /home.html HTTP/1.1" 200 -
+2024-02-03 20:22:32,084 INFO submit(126) The average travel time from Delft to Den Haag is: 27 minutes over the past 3 days
+2024-02-03 20:22:32,103 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 20:22:32] "POST /submit HTTP/1.1" 200 -
+2024-02-03 20:25:07,985 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-03 20:25:07,989 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-03 20:25:08,005 INFO _log(96)  * Restarting with stat
+2024-02-03 20:25:09,764 WARNING _log(96)  * Debugger is active!
+2024-02-03 20:25:09,765 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-03 20:25:13,432 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 20:25:13] "GET /home.html HTTP/1.1" 200 -
+2024-02-03 20:25:16,415 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 20:25:16] "GET /home.html HTTP/1.1" 200 -
+2024-02-03 20:25:19,011 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 20:25:19] "GET /home.html HTTP/1.1" 200 -
+2024-02-03 20:25:28,267 INFO submit(126) The average travel time from Delft to Den Haag is: 27 minutes over the past 3 days
+2024-02-03 20:25:28,277 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 20:25:28] "POST /submit HTTP/1.1" 200 -
