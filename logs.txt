@@ -219,3 +219,19 @@
 2024-02-03 18:38:06,318 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 18:38:06] "POST /submit HTTP/1.1" 200 -
 2024-02-03 18:38:09,616 INFO submit(130) The average travel time from delft to den haag is: 27 minutes over the past 2 days
 2024-02-03 18:38:09,635 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 18:38:09] "POST /submit HTTP/1.1" 200 -
+2024-02-03 19:38:05,026 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-03 19:38:05,035 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-03 19:38:05,052 INFO _log(96)  * Restarting with stat
+2024-02-03 19:38:07,420 WARNING _log(96)  * Debugger is active!
+2024-02-03 19:38:07,432 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-03 19:38:23,180 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 19:38:23] "GET / HTTP/1.1" 200 -
+2024-02-03 19:38:42,797 INFO submit(87) Folder created for user: jos
+2024-02-03 19:38:44,648 INFO save_to_excel(65) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\jos\delft_to_den_haag.xlsx
+2024-02-03 19:38:44,666 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 19:38:44] "POST /submit HTTP/1.1" 200 -
+2024-02-03 19:38:46,254 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 19:38:46] "GET /home.html HTTP/1.1" 200 -
+2024-02-03 19:38:54,365 INFO save_to_excel(65) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\jos\delft_to_den_haag.xlsx
+2024-02-03 19:38:54,375 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 19:38:54] "POST /submit HTTP/1.1" 200 -
+2024-02-03 19:38:55,955 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 19:38:55] "GET /home.html HTTP/1.1" 200 -
+2024-02-03 19:39:03,570 INFO submit(126) The average travel time from delft to den haag is: 27 minutes over the past 2 days
+2024-02-03 19:39:03,582 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 19:39:03] "POST /submit HTTP/1.1" 200 -

@@ -55,16 +55,14 @@ def cleaned_origin_and_destination(origin, destination):
 def save_to_excel(data, base_dir, cleaned_origin, cleaned_destination):
     file_name = f"{cleaned_origin}_to_{cleaned_destination}.xlsx"
     file_path = os.path.join(base_dir, file_name)
-
     df_new = pd.DataFrame([data])
-
     if os.path.exists(file_path):
         df_existing = pd.read_excel(file_path)
         df_combined = pd.concat([df_existing, df_new], ignore_index=True)
     else:
         df_combined = df_new
-
     df_combined.to_excel(file_path, index=False)
+    logger.info(f"Data saved to {file_path}")
     return file_path
 
 @app.route('/')
@@ -100,23 +98,21 @@ def submit():
                     'Total Duration (sec)': total_duration,
                     'Total Duration (text)': total_duration_text
                     }
-                   saved_file_path = save_to_excel(data_to_save, base_dir, cleaned_origin, cleaned_destination)
-                   logger.info(f"Data saved to {saved_file_path}")
+                   save_to_excel(data_to_save, base_dir, cleaned_origin, cleaned_destination)         
             else:
                     data_to_save = {
                         'Date': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
                         'Error': 'API call succeeded but no route found'
                     }
-                    saved_file_path = save_to_excel(data_to_save, base_dir, cleaned_origin, cleaned_destination)
-                    logger.info(f"Data saved to {saved_file_path}")
+                    save_to_excel(data_to_save, base_dir, cleaned_origin, cleaned_destination)
+
         except Exception as e:
                 logger.error("API call failed: " + str(e))
                 data_to_save = {
                     'Date': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
                     'Error': 'API call failed'
                 }
-                saved_file_path = save_to_excel(data_to_save, base_dir, origin, destination)
-                logger.info(f"Data saved to {saved_file_path}")
+                save_to_excel(data_to_save, base_dir, origin, destination)
         return render_template('return.html')
 
     if 'average_button' in request.form:
