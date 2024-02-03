@@ -1,13 +1,21 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
     <body>
-        <form action="http://localhost:5000/submit" method="post">
+        <div id="formdiv">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" id="logoimg" >
+        <form action="http://localhost:5000/submit" method="post" id="formaction">
             <input type="text" name="name" placeholder="Name" required>
             <input type="text" name="origin" placeholder="Origin" required>
             <input type="text" name="destination" placeholder="Destination" required>
             <input type="submit" value="Submit" name="submit_button">
             <input type="submit" value="Average" name="average_button">
         </form>
-        <button ahref="home.html"> Return </button>
-        
+        </div>
     </body>
 </html>

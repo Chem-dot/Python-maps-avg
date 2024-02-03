@@ -300,3 +300,127 @@
 2024-02-03 20:25:19,011 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 20:25:19] "GET /home.html HTTP/1.1" 200 -
 2024-02-03 20:25:28,267 INFO submit(126) The average travel time from Delft to Den Haag is: 27 minutes over the past 3 days
 2024-02-03 20:25:28,277 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 20:25:28] "POST /submit HTTP/1.1" 200 -
+2024-02-03 20:52:42,989 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-03 20:52:42,991 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-03 20:52:42,998 INFO _log(96)  * Restarting with stat
+2024-02-03 20:52:44,808 WARNING _log(96)  * Debugger is active!
+2024-02-03 20:52:44,819 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-03 20:56:06,235 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-03 20:56:06,242 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-03 20:56:06,251 INFO _log(96)  * Restarting with stat
+2024-02-03 20:56:10,104 WARNING _log(96)  * Debugger is active!
+2024-02-03 20:56:10,121 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-03 21:33:54,038 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-03 21:33:54,043 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-03 21:33:54,057 INFO _log(96)  * Restarting with stat
+2024-02-03 21:33:58,517 WARNING _log(96)  * Debugger is active!
+2024-02-03 21:33:58,534 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-03 21:34:04,515 INFO submit(126) The average travel time from Delft to Den Haag is: 27 minutes over the past 3 days
+2024-02-03 21:34:04,585 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 21:34:04] "POST /submit HTTP/1.1" 200 -
+2024-02-03 21:34:07,137 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 21:34:07] "GET /home.html HTTP/1.1" 200 -
+2024-02-03 21:34:07,515 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 21:34:07] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2024-02-03 21:34:22,133 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 21:34:22] "GET /home.html HTTP/1.1" 200 -
+2024-02-03 21:34:22,522 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 21:34:22] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2024-02-03 21:54:28,496 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 21:54:28] "GET /home.html HTTP/1.1" 200 -
+2024-02-03 21:54:28,735 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 21:54:28] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2024-02-03 22:11:04,377 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-03 22:11:04,390 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-03 22:11:04,396 INFO _log(96)  * Restarting with stat
+2024-02-03 22:11:08,802 WARNING _log(96)  * Debugger is active!
+2024-02-03 22:11:08,821 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-03 22:11:09,669 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:11:09] "GET / HTTP/1.1" 200 -
+2024-02-03 22:11:09,680 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:11:09] "GET / HTTP/1.1" 200 -
+2024-02-03 22:11:09,766 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:11:09] "[33mGET /css/logo.png HTTP/1.1[0m" 404 -
+2024-02-03 22:11:10,079 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:11:10] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2024-02-03 22:11:38,424 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:11:38] "GET / HTTP/1.1" 200 -
+2024-02-03 22:11:38,700 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:11:38] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2024-02-03 22:11:38,808 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:11:38] "[33mGET /css/logo.png HTTP/1.1[0m" 404 -
+2024-02-03 22:31:07,078 INFO _log(96)  * Detected change in 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\working 3.0.py', reloading
+2024-02-03 22:35:30,247 INFO _log(96)  * Restarting with stat
+2024-02-03 22:35:31,649 WARNING _log(96)  * Debugger is active!
+2024-02-03 22:35:31,659 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-03 22:35:34,754 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-03 22:35:34,754 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-03 22:35:34,761 INFO _log(96)  * Restarting with stat
+2024-02-03 22:35:36,152 WARNING _log(96)  * Debugger is active!
+2024-02-03 22:35:36,157 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-03 22:35:38,246 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:35:38] "GET / HTTP/1.1" 200 -
+2024-02-03 22:35:38,286 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:35:38] "[33mGET /static/css/style.cssZ HTTP/1.1[0m" 404 -
+2024-02-03 22:35:38,291 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:35:38] "[33mGET /static/images/logo.png HTTP/1.1[0m" 404 -
+2024-02-03 22:35:43,720 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:35:43] "GET / HTTP/1.1" 200 -
+2024-02-03 22:35:43,745 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:35:43] "[33mGET /static/css/style.cssZ HTTP/1.1[0m" 404 -
+2024-02-03 22:35:43,750 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:35:43] "[33mGET /static/images/logo.png HTTP/1.1[0m" 404 -
+2024-02-03 22:37:43,485 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:37:43] "GET / HTTP/1.1" 200 -
+2024-02-03 22:37:43,537 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:37:43] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2024-02-03 22:37:43,542 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:37:43] "[33mGET /static/images/logo.png HTTP/1.1[0m" 404 -
+2024-02-03 22:37:44,343 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:37:44] "GET / HTTP/1.1" 200 -
+2024-02-03 22:37:44,370 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:37:44] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2024-02-03 22:37:44,376 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:37:44] "[33mGET /static/images/logo.png HTTP/1.1[0m" 404 -
+2024-02-03 22:37:44,760 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:37:44] "GET / HTTP/1.1" 200 -
+2024-02-03 22:37:44,787 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:37:44] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2024-02-03 22:37:44,787 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:37:44] "[33mGET /static/images/logo.png HTTP/1.1[0m" 404 -
+2024-02-03 22:37:44,942 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:37:44] "GET / HTTP/1.1" 200 -
+2024-02-03 22:37:44,968 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:37:44] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2024-02-03 22:37:44,969 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:37:44] "[33mGET /static/images/logo.png HTTP/1.1[0m" 404 -
+2024-02-03 22:37:47,438 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:37:47] "GET / HTTP/1.1" 200 -
+2024-02-03 22:37:47,467 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:37:47] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2024-02-03 22:37:47,471 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:37:47] "[33mGET /static/images/logo.png HTTP/1.1[0m" 404 -
+2024-02-03 22:37:47,589 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:37:47] "GET / HTTP/1.1" 200 -
+2024-02-03 22:37:47,614 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:37:47] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2024-02-03 22:37:47,620 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:37:47] "[33mGET /static/images/logo.png HTTP/1.1[0m" 404 -
+2024-02-03 22:37:47,781 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:37:47] "GET / HTTP/1.1" 200 -
+2024-02-03 22:37:47,806 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:37:47] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2024-02-03 22:37:47,811 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:37:47] "[33mGET /static/images/logo.png HTTP/1.1[0m" 404 -
+2024-02-03 22:37:48,036 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:37:48] "GET / HTTP/1.1" 200 -
+2024-02-03 22:37:48,061 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:37:48] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2024-02-03 22:37:48,064 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:37:48] "[33mGET /static/images/logo.png HTTP/1.1[0m" 404 -
+2024-02-03 22:39:54,095 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:39:54] "GET / HTTP/1.1" 200 -
+2024-02-03 22:39:54,352 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:39:54] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2024-02-03 22:39:54,444 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:39:54] "[33mGET /static/images/logo.png HTTP/1.1[0m" 404 -
+2024-02-03 22:39:55,123 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:39:55] "GET / HTTP/1.1" 200 -
+2024-02-03 22:39:55,447 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:39:55] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2024-02-03 22:39:55,447 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:39:55] "GET / HTTP/1.1" 200 -
+2024-02-03 22:39:55,626 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:39:55] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2024-02-03 22:39:55,710 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:39:55] "[33mGET /static/images/logo.png HTTP/1.1[0m" 404 -
+2024-02-03 22:39:58,313 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:39:58] "GET / HTTP/1.1" 200 -
+2024-02-03 22:39:58,356 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:39:58] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2024-02-03 22:39:58,361 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:39:58] "[33mGET /static/images/logo.png HTTP/1.1[0m" 404 -
+2024-02-03 22:41:08,025 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-03 22:41:08,025 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-03 22:41:08,036 INFO _log(96)  * Restarting with stat
+2024-02-03 22:41:09,250 WARNING _log(96)  * Debugger is active!
+2024-02-03 22:41:09,265 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-03 22:41:14,749 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:41:14] "GET / HTTP/1.1" 200 -
+2024-02-03 22:41:14,786 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:41:14] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2024-02-03 22:41:14,788 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:41:14] "[33mGET /static/images/logo.png HTTP/1.1[0m" 404 -
+2024-02-03 22:41:17,002 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:41:17] "GET / HTTP/1.1" 200 -
+2024-02-03 22:41:17,031 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:41:17] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2024-02-03 22:41:17,037 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:41:17] "[33mGET /static/images/logo.png HTTP/1.1[0m" 404 -
+2024-02-03 22:45:29,836 INFO _log(96)  * Detected change in 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\working 3.0.py', reloading
+2024-02-03 22:45:32,706 INFO _log(96)  * Restarting with stat
+2024-02-03 22:45:34,144 WARNING _log(96)  * Debugger is active!
+2024-02-03 22:45:34,144 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-03 22:45:49,755 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-03 22:45:49,757 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-03 22:45:49,760 INFO _log(96)  * Restarting with stat
+2024-02-03 22:45:51,063 WARNING _log(96)  * Debugger is active!
+2024-02-03 22:45:51,063 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-03 22:45:52,696 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:45:52] "GET / HTTP/1.1" 200 -
+2024-02-03 22:45:52,845 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:45:52] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-02-03 22:45:52,846 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:45:52] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-02-03 22:45:52,861 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:45:52] "GET /static/images/traffic.png HTTP/1.1" 200 -
+2024-02-03 22:46:10,056 INFO save_to_excel(65) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\jos\delft_to_den_haag.xlsx
+2024-02-03 22:46:10,061 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:46:10] "POST /submit HTTP/1.1" 200 -
+2024-02-03 22:46:12,968 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:46:12] "GET /home.html HTTP/1.1" 200 -
+2024-02-03 22:46:13,317 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:46:13] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-02-03 22:46:13,322 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:46:13] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-02-03 22:46:13,565 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:46:13] "GET /static/images/traffic.png HTTP/1.1" 200 -
+2024-02-03 22:46:19,713 INFO submit(126) The average travel time from Delft to Den Haag is: 27 minutes over the past 4 days
+2024-02-03 22:46:19,713 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:46:19] "POST /submit HTTP/1.1" 200 -

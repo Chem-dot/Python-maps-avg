@@ -21,7 +21,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 directory = os.getcwd()
-app = Flask(__name__)
+app = Flask(__name__,static_folder='static')
 
 api_key = os.environ.get("API_KEY_MAPS")
 

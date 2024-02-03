@@ -1,0 +1,28 @@
+body {
+    background-image: url('../images/traffic.png');
+    background-color: rgba(0, 0, 0, 0.47);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+#formdiv {  
+    background-color: rgba(0, 0, 0, 0.47);
+}
+
+#logoimg {
+    max-height: 15%;    
+    max-width: 15%;
+    padding-left: 40%;
+    opacity: 80%;
+}
+#formaction {
+    padding-left: 25%;
+}
+
+#buttons {
+    padding-left: 25%;
+    max-width: 20%;
+    align-self: auto;
+}
