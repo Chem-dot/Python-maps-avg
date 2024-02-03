@@ -1,0 +1,221 @@
+2024-01-28 16:59:34,495 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-01-28 16:59:34,497 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-01-28 16:59:34,509 INFO _log(96)  * Restarting with stat
+2024-01-28 16:59:36,355 WARNING _log(96)  * Debugger is active!
+2024-01-28 16:59:36,362 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-01-28 16:59:44,877 INFO _log(96) 127.0.0.1 - - [28/Jan/2024 16:59:44] "GET / HTTP/1.1" 200 -
+2024-01-28 16:59:54,282 INFO submit(100) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\cho\delft_to_schiphol.xlsx
+2024-01-28 16:59:54,291 INFO _log(96) 127.0.0.1 - - [28/Jan/2024 16:59:54] "POST /submit HTTP/1.1" 200 -
+2024-01-28 16:59:55,693 INFO _log(96) 127.0.0.1 - - [28/Jan/2024 16:59:55] "GET /home.html HTTP/1.1" 200 -
+2024-01-28 17:00:03,776 INFO submit(100) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\cho\delft_to_schiphol.xlsx
+2024-01-28 17:00:03,786 INFO _log(96) 127.0.0.1 - - [28/Jan/2024 17:00:03] "POST /submit HTTP/1.1" 200 -
+2024-01-28 17:00:04,559 INFO _log(96) 127.0.0.1 - - [28/Jan/2024 17:00:04] "GET /home.html HTTP/1.1" 200 -
+2024-01-28 17:00:11,299 INFO submit(126) The average travel time from delft to schiphol is: 40 minutes over the past 4 days
+2024-01-28 17:00:11,312 INFO _log(96) 127.0.0.1 - - [28/Jan/2024 17:00:11] "POST /submit HTTP/1.1" 200 -
+2024-02-03 13:00:29,594 INFO _log(96)  * Detected change in 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\test3.0.py', reloading
+2024-02-03 17:12:48,911 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-03 17:12:48,918 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-03 17:12:48,920 INFO _log(96)  * Restarting with stat
+2024-02-03 17:12:49,803 WARNING _log(96)  * Debugger is active!
+2024-02-03 17:12:49,806 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-03 17:13:12,757 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:13:12] "GET / HTTP/1.1" 200 -
+2024-02-03 17:13:30,983 INFO submit(85) Folder created for user: chem
+2024-02-03 17:13:32,294 INFO submit(100) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\chem\delft_to_den_haag.xlsx
+2024-02-03 17:13:32,294 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:13:32] "POST /submit HTTP/1.1" 200 -
+2024-02-03 17:14:12,970 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:14:12] "GET /home.html HTTP/1.1" 200 -
+2024-02-03 17:14:28,948 INFO submit(85) Folder created for user: china
+2024-02-03 17:14:29,002 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:14:29] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-02-03 17:14:29,187 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:14:29] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-03 17:14:29,388 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:14:29] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-03 17:14:29,420 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:14:29] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-03 17:14:29,768 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:14:29] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-03 17:14:42,329 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:14:42] "GET /home.html HTTP/1.1" 200 -
+2024-02-03 17:14:50,110 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:14:50] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-02-03 17:14:50,327 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:14:50] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-03 17:14:50,495 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:14:50] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-03 17:14:50,518 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:14:50] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-03 17:15:36,082 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-03 17:15:36,082 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-03 17:15:36,087 INFO _log(96)  * Restarting with stat
+2024-02-03 17:15:37,913 WARNING _log(96)  * Debugger is active!
+2024-02-03 17:15:37,921 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-03 17:15:39,602 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:15:39] "GET / HTTP/1.1" 200 -
+2024-02-03 17:15:51,782 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:15:51] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-02-03 17:15:52,081 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:15:52] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-03 17:15:52,184 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:15:52] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-03 17:15:52,250 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:15:52] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-03 17:17:02,592 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:17:02] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-02-03 17:17:02,817 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:17:02] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-03 17:17:02,989 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:17:02] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-03 17:17:03,052 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:17:03] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-03 17:17:48,970 INFO submit(100) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\chem\delft_to_den_haag.xlsx
+2024-02-03 17:17:48,975 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:17:48] "POST /submit HTTP/1.1" 200 -
+2024-02-03 17:17:52,271 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:17:52] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-02-03 17:17:52,653 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:17:52] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-03 17:17:52,660 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:17:52] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-03 17:17:52,908 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:17:52] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-03 17:17:53,019 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:17:53] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-03 17:17:55,691 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:17:55] "GET / HTTP/1.1" 200 -
+2024-02-03 17:18:02,156 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:18:02] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-02-03 17:18:02,544 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:18:02] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-03 17:18:02,544 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:18:02] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-03 17:18:02,791 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:18:02] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-03 17:18:24,362 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:18:24] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-02-03 17:18:24,763 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:18:24] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-03 17:18:24,772 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:18:24] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-03 17:18:25,012 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:18:25] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-03 17:20:06,852 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-03 17:20:06,862 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-03 17:20:06,868 INFO _log(96)  * Restarting with stat
+2024-02-03 17:20:08,562 WARNING _log(96)  * Debugger is active!
+2024-02-03 17:20:08,563 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-03 17:20:11,202 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:20:11] "GET / HTTP/1.1" 200 -
+2024-02-03 17:20:26,591 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:20:26] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-02-03 17:20:26,901 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:20:26] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-03 17:20:26,978 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:20:26] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-03 17:20:27,032 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:20:27] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-03 17:22:06,789 INFO submit(85) Folder created for user: chop
+2024-02-03 17:22:08,465 INFO submit(100) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\chop\delft_to_den_haag.xlsx
+2024-02-03 17:22:08,468 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:22:08] "POST /submit HTTP/1.1" 200 -
+2024-02-03 17:22:10,310 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:22:10] "GET /home.html HTTP/1.1" 200 -
+2024-02-03 17:22:15,455 INFO submit(100) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\chop\delft_to_den_haag.xlsx
+2024-02-03 17:22:15,455 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:22:15] "POST /submit HTTP/1.1" 200 -
+2024-02-03 17:22:17,054 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:22:17] "GET /home.html HTTP/1.1" 200 -
+2024-02-03 17:22:23,998 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:22:23] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-02-03 17:22:24,208 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:22:24] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-03 17:22:24,406 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:22:24] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-03 17:22:24,472 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:22:24] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-03 17:22:24,824 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:22:24] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-03 17:32:57,390 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-03 17:32:57,392 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-03 17:32:57,398 INFO _log(96)  * Restarting with stat
+2024-02-03 17:32:59,209 WARNING _log(96)  * Debugger is active!
+2024-02-03 17:32:59,209 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-03 17:33:02,399 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:33:02] "GET / HTTP/1.1" 200 -
+2024-02-03 17:33:26,771 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:33:26] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-02-03 17:33:27,120 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:33:27] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-03 17:33:27,173 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:33:27] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-03 17:33:27,263 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:33:27] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-03 17:35:36,867 INFO submit(100) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\chem\delft_to_den_haag.xlsx
+2024-02-03 17:35:36,874 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:35:36] "POST /submit HTTP/1.1" 200 -
+2024-02-03 17:35:43,951 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:35:43] "GET /home.html HTTP/1.1" 200 -
+2024-02-03 17:35:51,080 INFO submit(100) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\chem\delft_to_den_haag.xlsx
+2024-02-03 17:35:51,101 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:35:51] "POST /submit HTTP/1.1" 200 -
+2024-02-03 17:35:52,128 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:35:52] "GET /home.html HTTP/1.1" 200 -
+2024-02-03 17:35:58,072 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:35:58] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-02-03 17:35:58,249 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:35:58] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-03 17:35:58,470 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:35:58] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-03 17:35:58,531 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:35:58] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-03 17:35:58,882 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:35:58] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-03 17:36:46,841 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-03 17:36:46,841 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-03 17:36:46,852 INFO _log(96)  * Restarting with stat
+2024-02-03 17:36:48,553 WARNING _log(96)  * Debugger is active!
+2024-02-03 17:36:48,559 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-03 17:36:56,544 INFO submit(100) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\chem\delft_to_den_haag.xlsx
+2024-02-03 17:36:56,567 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:36:56] "POST /submit HTTP/1.1" 200 -
+2024-02-03 17:38:06,662 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:38:06] "GET /home.html HTTP/1.1" 200 -
+2024-02-03 17:38:15,077 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:38:15] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-02-03 17:38:15,479 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:38:15] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-03 17:38:15,482 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:38:15] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-03 17:38:15,718 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:38:15] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-03 17:38:15,841 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:38:15] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-03 17:46:47,472 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-03 17:46:47,475 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-03 17:46:47,476 INFO _log(96)  * Restarting with stat
+2024-02-03 17:46:49,207 WARNING _log(96)  * Debugger is active!
+2024-02-03 17:46:49,207 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-03 17:47:00,612 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:47:00] "GET / HTTP/1.1" 200 -
+2024-02-03 17:47:15,907 INFO submit(100) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\chem\delft_to_zoetermeer.xlsx
+2024-02-03 17:47:15,917 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:47:15] "POST /submit HTTP/1.1" 200 -
+2024-02-03 17:47:17,496 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:47:17] "GET /home.html HTTP/1.1" 200 -
+2024-02-03 17:47:27,876 INFO submit(100) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\chem\delft_to_zoetermeer.xlsx
+2024-02-03 17:47:27,882 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:47:27] "POST /submit HTTP/1.1" 200 -
+2024-02-03 17:47:29,330 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:47:29] "GET /home.html HTTP/1.1" 200 -
+2024-02-03 17:47:36,925 INFO submit(126) The average travel time from delft to zoetermeer is: 23 minutes over the past 2 days
+2024-02-03 17:47:36,964 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:47:36] "POST /submit HTTP/1.1" 200 -
+2024-02-03 17:48:00,617 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:48:00] "GET /home.html HTTP/1.1" 200 -
+2024-02-03 17:48:08,651 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:48:08] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-02-03 17:48:08,831 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:48:08] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-03 17:48:09,051 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:48:09] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-03 17:48:09,122 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:48:09] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-03 17:48:09,480 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:48:09] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-03 17:57:49,524 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-03 17:57:49,534 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-03 17:57:49,542 INFO _log(96)  * Restarting with stat
+2024-02-03 17:57:51,131 WARNING _log(96)  * Debugger is active!
+2024-02-03 17:57:51,131 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-03 17:58:00,091 INFO submit(128) The average travel time from delft to den haag is: 27 minutes over the past 5 days
+2024-02-03 17:58:00,125 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:58:00] "POST /submit HTTP/1.1" 200 -
+2024-02-03 17:58:04,825 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 17:58:04] "GET /home.html HTTP/1.1" 200 -
+2024-02-03 18:25:06,173 INFO _log(96)  * Detected change in 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\working 3.0.py', reloading
+2024-02-03 18:25:39,127 INFO _log(96)  * Restarting with stat
+2024-02-03 18:25:41,075 WARNING _log(96)  * Debugger is active!
+2024-02-03 18:25:41,096 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-03 18:26:07,513 INFO _log(96)  * Detected change in 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\working 3.0.py', reloading
+2024-02-03 18:27:18,701 INFO _log(96)  * Restarting with stat
+2024-02-03 18:27:20,632 WARNING _log(96)  * Debugger is active!
+2024-02-03 18:27:20,641 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-03 18:27:33,258 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-03 18:27:33,258 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-03 18:27:33,267 INFO _log(96)  * Restarting with stat
+2024-02-03 18:27:35,023 WARNING _log(96)  * Debugger is active!
+2024-02-03 18:27:35,031 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-03 18:27:39,401 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 18:27:39] "GET / HTTP/1.1" 200 -
+2024-02-03 18:27:47,937 INFO submit(89) Folder created for user: chon
+2024-02-03 18:27:49,845 INFO submit(104) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\chon\delft_to_den haag.xlsx
+2024-02-03 18:27:49,855 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 18:27:49] "POST /submit HTTP/1.1" 200 -
+2024-02-03 18:27:52,110 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 18:27:52] "GET /home.html HTTP/1.1" 200 -
+2024-02-03 18:27:59,488 INFO submit(104) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\chon\delft_to_den haag.xlsx
+2024-02-03 18:27:59,488 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 18:27:59] "POST /submit HTTP/1.1" 200 -
+2024-02-03 18:28:01,523 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 18:28:01] "GET /home.html HTTP/1.1" 200 -
+2024-02-03 18:28:11,132 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 18:28:11] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-02-03 18:28:11,321 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 18:28:11] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-03 18:28:11,540 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 18:28:11] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-03 18:28:11,602 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 18:28:11] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-03 18:28:11,974 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 18:28:11] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-03 18:32:31,770 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-03 18:32:31,770 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-03 18:32:31,774 INFO _log(96)  * Restarting with stat
+2024-02-03 18:32:33,548 WARNING _log(96)  * Debugger is active!
+2024-02-03 18:32:33,565 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-03 18:32:41,489 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 18:32:41] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-02-03 18:32:41,851 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 18:32:41] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-03 18:32:41,877 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 18:32:41] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-03 18:32:41,923 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 18:32:41] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-03 18:33:09,269 INFO submit(104) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\chon\delft_to_den haag.xlsx
+2024-02-03 18:33:09,297 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 18:33:09] "POST /submit HTTP/1.1" 200 -
+2024-02-03 18:33:22,419 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 18:33:22] "GET /home.html HTTP/1.1" 200 -
+2024-02-03 18:33:30,448 INFO submit(104) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\chon\delft_to_den haag.xlsx
+2024-02-03 18:33:30,453 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 18:33:30] "POST /submit HTTP/1.1" 200 -
+2024-02-03 18:33:36,359 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 18:33:36] "GET /home.html HTTP/1.1" 200 -
+2024-02-03 18:33:48,303 INFO submit(104) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\chon\delft_to_den haag.xlsx
+2024-02-03 18:33:48,303 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 18:33:48] "POST /submit HTTP/1.1" 200 -
+2024-02-03 18:33:53,945 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 18:33:53] "GET /home.html HTTP/1.1" 200 -
+2024-02-03 18:34:00,520 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 18:34:00] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-02-03 18:34:00,690 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 18:34:00] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-03 18:34:00,940 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 18:34:00] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-03 18:34:00,973 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 18:34:00] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-03 18:34:01,327 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 18:34:01] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-03 18:37:36,356 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-03 18:37:36,359 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-03 18:37:36,364 INFO _log(96)  * Restarting with stat
+2024-02-03 18:37:38,255 WARNING _log(96)  * Debugger is active!
+2024-02-03 18:37:38,255 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-03 18:37:45,295 INFO submit(104) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\chon\delft_to_den_haag.xlsx
+2024-02-03 18:37:45,316 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 18:37:45] "POST /submit HTTP/1.1" 200 -
+2024-02-03 18:38:06,318 INFO submit(104) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\chon\delft_to_den_haag.xlsx
+2024-02-03 18:38:06,318 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 18:38:06] "POST /submit HTTP/1.1" 200 -
+2024-02-03 18:38:09,616 INFO submit(130) The average travel time from delft to den haag is: 27 minutes over the past 2 days
+2024-02-03 18:38:09,635 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 18:38:09] "POST /submit HTTP/1.1" 200 -

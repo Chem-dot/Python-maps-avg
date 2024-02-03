@@ -47,10 +47,13 @@ def extract_travel_time(route_info):
     total_duration_text = " / ".join(leg['duration']['text'] for leg in legs if 'duration' in leg)
     return total_duration, total_duration_text
 
-def save_to_excel(data, base_dir, origin, destination):
-    formatted_origin = origin.replace(" ", "_")
-    formatted_destination = destination.replace(" ", "_")
-    file_name = f"{formatted_origin}_to_{formatted_destination}.xlsx"
+def cleaned_origin_and_destination(origin, destination):
+    cleaned_origin = origin.replace(" ", "_")
+    cleaned_destination = destination.replace(" ", "_") 
+    return cleaned_origin, cleaned_destination
+
+def save_to_excel(data, base_dir, cleaned_origin, cleaned_destination):
+    file_name = f"{cleaned_origin}_to_{cleaned_destination}.xlsx"
     file_path = os.path.join(base_dir, file_name)
 
     df_new = pd.DataFrame([data])
@@ -79,6 +82,7 @@ def submit():
     origin = data.get('origin')
     destination = data.get('destination')
     base_dir = os.path.join(directory,'users', user_name)
+    cleaned_origin, cleaned_destination = cleaned_origin_and_destination(origin, destination)
 
     if not os.path.exists(base_dir):
         os.makedirs(base_dir)
@@ -96,14 +100,14 @@ def submit():
                     'Total Duration (sec)': total_duration,
                     'Total Duration (text)': total_duration_text
                     }
-                   saved_file_path = save_to_excel(data_to_save, base_dir, origin, destination)
+                   saved_file_path = save_to_excel(data_to_save, base_dir, cleaned_origin, cleaned_destination)
                    logger.info(f"Data saved to {saved_file_path}")
             else:
                     data_to_save = {
                         'Date': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
                         'Error': 'API call succeeded but no route found'
                     }
-                    saved_file_path = save_to_excel(data_to_save, base_dir, origin, destination)
+                    saved_file_path = save_to_excel(data_to_save, base_dir, cleaned_origin, cleaned_destination)
                     logger.info(f"Data saved to {saved_file_path}")
         except Exception as e:
                 logger.error("API call failed: " + str(e))
@@ -117,7 +121,7 @@ def submit():
 
     if 'average_button' in request.form:
         if os.path.exists(base_dir):
-            excel_file_path = os.path.join(base_dir, f"{origin}_to_{destination}.xlsx")
+            excel_file_path = os.path.join(base_dir, f"{cleaned_origin}_to_{cleaned_destination}.xlsx")
             df = pd.read_excel(excel_file_path)
             avg_e = int(df['Total Duration (sec)'].iloc[1:].mean() / 60)
             Origin = df.at[1, 'origin']
@@ -126,6 +130,7 @@ def submit():
             logger.info(f"The average travel time from {Origin} to {Destination} is: {avg_e} minutes over the past {num_rows} days")
             print(f"The average travel time from {Origin} to {Destination} is: {avg_e} minutes over the past {num_rows} days")
         return render_template('average.html', Origin=Origin, Destination=Destination, avg_e=avg_e, num_rows=num_rows)
-
+    else:
+        logger.info(f"The path {excel_file_path} had an issue")
 if __name__ == '__main__':
     app.run(debug=True)
