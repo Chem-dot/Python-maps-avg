@@ -1,12 +1,13 @@
-from flask import Flask, request, render_template
-import pandas as pd
-import os
-import requests
-import json
-from datetime import datetime
 import logging
+import os
+import json
+import pandas as pd
+import requests
+from datetime import datetime
 from logging.handlers import RotatingFileHandler
-import shutil
+from replicated_script import user_input  
+
+
 
 # Configure logging
 logging.basicConfig(
@@ -20,10 +21,14 @@ logging.basicConfig(
 
 logger = logging.getLogger(__name__)
 
-directory = os.getcwd()
-app = Flask(__name__,static_folder='static')
-
 api_key = os.environ.get("API_KEY_MAPS")
+
+directory = os.getcwd()
+
+user_name = user_input['username']
+origin = user_input['origin']
+destination = user_input['destination'] 
+
 
 def get_route_info(origin, destination, api_key):
     endpoint = 'https://maps.googleapis.com/maps/api/directions/json?'
@@ -65,62 +70,14 @@ def save_to_excel(data, base_dir, cleaned_origin, cleaned_destination):
     logger.info(f"Data saved to {file_path}")
     return file_path
 
-def store_inputs(base_dir, user_inputs):
-    file_path = os.path.join(base_dir, 'replicated_script.py')
-    with open(file_path, 'w') as file:
-        file.write(f"user_input = {user_inputs}\n")
-    logger.info(f"Inputs stored in {file_path}: {user_inputs}")
-
-def scriptcopy(cleaned_origin, cleaned_destination, base_dir):
-    script_name = "templates/pythoncopy.py"
-    copied_script_name = f"{cleaned_origin}_to_{cleaned_destination}.py"
-    try:
-        shutil.copy(script_name, os.path.join(base_dir, copied_script_name))
-        logger.info(f"{script_name} has been copied to {base_dir} with the name {copied_script_name}")
-    except Exception as e:
-        logger.error("Script duplication failed: " + str(e))
-        data_to_save = {
-            'Date': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
-            'Error': 'Script duplication failed'
-        }
-        save_to_excel(data_to_save, base_dir, cleaned_origin, cleaned_destination)
-
-def delete_inputs(base_dir):
-    file_path = os.path.join(base_dir, 'replicated_script.py')
-    try:
-        os.remove(file_path)
-        logger.info(f"File {file_path} has been removed")
-    except Exception as e:
-        logger.error("File removal failed: " + str(e))
-
-@app.route('/')
-def index():
-    return render_template('home.html')
-
-@app.route('/home.html')
-def home():
-    return render_template('home.html')
-
-@app.route('/submit', methods=['POST'])
-def submit():
-    data = request.form
-    user_name = data.get('name').strip()
-    origin = data.get('origin')
-    destination = data.get('destination')
-    base_dir = os.path.join(directory,'users', user_name)
+def run_script(origin, destination):
+    base_dir = os.getcwd()
     cleaned_origin, cleaned_destination = cleaned_origin_and_destination(origin, destination)
 
-    user_inputs = {
-        'username' : user_name,
-        'origin': origin,
-        'destination': destination
-    }
-
     if not os.path.exists(base_dir):
-        os.makedirs(base_dir)
-        logger.info(f"Folder created for user: {user_name}")
+        logger.info("Folder not found")
 
-    if 'submit_button' in request.form and api_key is not None:
+    if api_key is not None:
         try:
             route_info = get_route_info(origin, destination, api_key)
             total_duration, total_duration_text = extract_travel_time(route_info)
@@ -132,10 +89,8 @@ def submit():
                     'Total Duration (sec)': total_duration,
                     'Total Duration (text)': total_duration_text
                     }
-                   save_to_excel(data_to_save, base_dir, cleaned_origin, cleaned_destination)
-                   store_inputs(base_dir, user_inputs)
-                   scriptcopy(cleaned_origin, cleaned_destination, base_dir)
-                   #delete_inputs(base_dir)                  
+                   save_to_excel(data_to_save, base_dir, cleaned_origin, cleaned_destination)                  
+                            
             else:
                     data_to_save = {
                         'Date': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
@@ -150,20 +105,5 @@ def submit():
                     'Error': 'API call failed'
                 }
                 save_to_excel(data_to_save, base_dir, origin, destination)
-        return render_template('return.html')
-
-    if 'average_button' in request.form:
-        if os.path.exists(base_dir):
-            excel_file_path = os.path.join(base_dir, f"{cleaned_origin}_to_{cleaned_destination}.xlsx")
-            df = pd.read_excel(excel_file_path)
-            avg_e = int(df['Total Duration (sec)'].iloc[1:].mean() / 60)
-            Origin = df.at[1, 'origin'].title()
-            Destination = df.at[1, 'destination'].title()
-            num_rows = df.shape[0]
-            logger.info(f"The average travel time from {Origin} to {Destination} is: {avg_e} minutes over the past {num_rows} days")
-            print(f"The average travel time from {Origin} to {Destination} is: {avg_e} minutes over the past {num_rows} days")
-        return render_template('average.html', Origin=Origin, Destination=Destination, avg_e=avg_e, num_rows=num_rows)
-    else:
-        logger.info(f"The path {excel_file_path} had an issue")
 if __name__ == '__main__':
-    app.run(debug=True)
+    run_script(origin, destination)

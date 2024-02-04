@@ -424,3 +424,807 @@
 2024-02-03 22:46:13,565 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:46:13] "GET /static/images/traffic.png HTTP/1.1" 200 -
 2024-02-03 22:46:19,713 INFO submit(126) The average travel time from Delft to Den Haag is: 27 minutes over the past 4 days
 2024-02-03 22:46:19,713 INFO _log(96) 127.0.0.1 - - [03/Feb/2024 22:46:19] "POST /submit HTTP/1.1" 200 -
+2024-02-04 01:08:17,638 INFO _log(96)  * Detected change in 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\working 3.0.py', reloading
+2024-02-04 01:08:24,570 INFO _log(96)  * Restarting with stat
+2024-02-04 01:08:25,739 WARNING _log(96)  * Debugger is active!
+2024-02-04 01:08:25,745 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 01:08:53,643 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-04 01:08:53,644 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-04 01:08:53,648 INFO _log(96)  * Restarting with stat
+2024-02-04 01:08:54,818 WARNING _log(96)  * Debugger is active!
+2024-02-04 01:08:54,828 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 01:08:57,220 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 01:08:57] "GET / HTTP/1.1" 200 -
+2024-02-04 01:08:57,367 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 01:08:57] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 01:08:57,367 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 01:08:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 01:08:57,388 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 01:08:57] "[36mGET /static/images/traffic.png HTTP/1.1[0m" 304 -
+2024-02-04 01:09:28,743 INFO submit(111) Folder created for user: chien
+2024-02-04 01:09:29,718 INFO save_to_excel(67) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\chien\delft_to_den_haag.xlsx
+2024-02-04 01:09:29,718 ERROR scriptcopy(86) Script duplication failed: module 'os' has no attribute 'join'
+2024-02-04 01:09:29,753 INFO save_to_excel(67) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\chien\delft_to_den haag.xlsx
+2024-02-04 01:09:29,760 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 01:09:29] "POST /submit HTTP/1.1" 200 -
+2024-02-04 01:13:19,919 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-04 01:13:19,919 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-04 01:13:19,919 INFO _log(96)  * Restarting with stat
+2024-02-04 01:13:21,115 WARNING _log(96)  * Debugger is active!
+2024-02-04 01:13:21,115 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 01:13:31,666 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 01:13:31] "GET /home.html HTTP/1.1" 200 -
+2024-02-04 01:13:31,999 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 01:13:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 01:13:32,023 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 01:13:32] "[36mGET /static/images/traffic.png HTTP/1.1[0m" 304 -
+2024-02-04 01:13:32,024 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 01:13:32] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 01:13:43,634 INFO save_to_excel(67) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\chien\delft_to_den_haag.xlsx
+2024-02-04 01:13:43,637 INFO scriptcopy(84) working 3.0.py has been copied to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\chien with the name delft_to_den_haag.py
+2024-02-04 01:13:43,642 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 01:13:43] "POST /submit HTTP/1.1" 200 -
+2024-02-04 01:25:05,447 INFO _log(96)  * Detected change in 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\working 3.0.py', reloading
+2024-02-04 01:25:09,743 INFO _log(96)  * Restarting with stat
+2024-02-04 01:25:10,963 WARNING _log(96)  * Debugger is active!
+2024-02-04 01:25:10,968 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 01:25:35,460 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 01:25:35] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-04 01:25:44,990 INFO save_to_excel(67) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\chien\delft_to_den_haag.xlsx
+2024-02-04 01:25:44,994 INFO scriptcopy(85) working 3.0.py has been copied to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\chien with the name delft_to_den_haag.py
+2024-02-04 01:25:45,005 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 01:25:45] "POST /submit HTTP/1.1" 200 -
+2024-02-04 01:25:45,738 INFO _log(96)  * Detected change in 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\users\\chien\\delft_to_den_haag.py', reloading
+2024-02-04 01:26:39,320 INFO _log(96)  * Restarting with stat
+2024-02-04 01:26:40,393 WARNING _log(96)  * Debugger is active!
+2024-02-04 01:26:40,393 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 01:26:40,607 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 01:26:40] "GET /home.html HTTP/1.1" 200 -
+2024-02-04 01:26:40,607 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 01:26:40] "GET / HTTP/1.1" 200 -
+2024-02-04 01:26:40,607 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 01:26:40] "GET /home.html HTTP/1.1" 200 -
+2024-02-04 01:26:40,735 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 01:26:40] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 01:26:40,737 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 01:26:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 01:26:40,750 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 01:26:40] "[36mGET /static/images/traffic.png HTTP/1.1[0m" 304 -
+2024-02-04 01:26:56,556 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-04 01:26:56,556 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-04 01:26:56,556 INFO _log(96)  * Restarting with stat
+2024-02-04 01:26:57,606 WARNING _log(96)  * Debugger is active!
+2024-02-04 01:26:57,606 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 01:27:00,174 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 01:27:00] "GET / HTTP/1.1" 200 -
+2024-02-04 01:27:00,300 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 01:27:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 01:27:00,302 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 01:27:00] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 01:27:00,316 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 01:27:00] "[36mGET /static/images/traffic.png HTTP/1.1[0m" 304 -
+2024-02-04 01:27:16,289 INFO save_to_excel(67) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 01:27:16,293 INFO scriptcopy(85) working 3.0.py has been copied to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch with the name delft_to_schiphol.py
+2024-02-04 01:27:16,295 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 01:27:16] "POST /submit HTTP/1.1" 200 -
+2024-02-04 01:32:01,442 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 01:32:01] "GET /home.html HTTP/1.1" 200 -
+2024-02-04 01:32:01,693 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 01:32:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 01:32:01,770 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 01:32:01] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 01:32:01,770 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 01:32:01] "[36mGET /static/images/traffic.png HTTP/1.1[0m" 304 -
+2024-02-04 01:33:46,048 INFO _log(96)  * Detected change in 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\working 3.0.py', reloading
+2024-02-04 01:35:14,533 INFO _log(96)  * Restarting with stat
+2024-02-04 01:35:15,683 WARNING _log(96)  * Debugger is active!
+2024-02-04 01:35:15,683 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 01:35:31,317 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-04 01:35:31,317 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-04 01:35:31,327 INFO _log(96)  * Restarting with stat
+2024-02-04 01:35:32,395 WARNING _log(96)  * Debugger is active!
+2024-02-04 01:35:32,401 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 01:35:40,251 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 01:35:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 01:35:40,251 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 01:35:40] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 01:35:40,408 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 01:35:40] "[36mGET /static/images/traffic.png HTTP/1.1[0m" 304 -
+2024-02-04 01:35:42,486 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 01:35:42] "GET / HTTP/1.1" 200 -
+2024-02-04 01:35:42,835 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 01:35:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 01:35:42,840 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 01:35:42] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 01:35:51,752 INFO save_to_excel(67) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 01:35:51,752 INFO scriptcopy(85) working 3.0.py has been copied to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch with the name delft_to_schiphol.py
+2024-02-04 01:35:51,752 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 01:35:51] "POST /submit HTTP/1.1" 200 -
+2024-02-04 01:40:29,680 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-04 01:40:29,683 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-04 01:40:29,688 INFO _log(96)  * Restarting with stat
+2024-02-04 01:40:30,759 WARNING _log(96)  * Debugger is active!
+2024-02-04 01:40:30,759 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 01:40:45,901 INFO save_to_excel(67) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 01:40:45,901 INFO scriptcopy(85) working 3.0.py has been copied to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch with the name delft_to_schiphol.py
+2024-02-04 01:40:45,917 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 01:40:45] "POST /submit HTTP/1.1" 200 -
+2024-02-04 01:40:46,331 INFO _log(96)  * Detected change in 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\users\\ch\\delft_to_schiphol.py', reloading
+2024-02-04 01:41:59,046 INFO _log(96)  * Restarting with stat
+2024-02-04 01:42:00,271 WARNING _log(96)  * Debugger is active!
+2024-02-04 01:42:00,271 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 01:42:11,014 INFO save_to_excel(67) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 01:42:11,017 INFO scriptcopy(85) working 3.0.py has been copied to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch with the name delft_to_schiphol.py
+2024-02-04 01:42:11,022 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 01:42:11] "POST /submit HTTP/1.1" 200 -
+2024-02-04 01:42:12,380 INFO _log(96)  * Detected change in 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\users\\ch\\delft_to_schiphol.py', reloading
+2024-02-04 01:53:58,315 INFO _log(96)  * Restarting with stat
+2024-02-04 01:53:59,544 WARNING _log(96)  * Debugger is active!
+2024-02-04 01:53:59,544 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 01:54:18,210 INFO save_to_excel(67) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 01:54:18,210 INFO scriptcopy(85) working 3.0.py has been copied to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch with the name delft_to_schiphol.py
+2024-02-04 01:54:18,216 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 01:54:18] "POST /submit HTTP/1.1" 200 -
+2024-02-04 01:54:19,331 INFO _log(96)  * Detected change in 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\users\\ch\\delft_to_schiphol.py', reloading
+2024-02-04 01:55:16,596 INFO _log(96)  * Restarting with stat
+2024-02-04 01:55:17,688 WARNING _log(96)  * Debugger is active!
+2024-02-04 01:55:17,692 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 01:55:35,108 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-04 01:55:35,123 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-04 01:55:35,125 INFO _log(96)  * Restarting with stat
+2024-02-04 01:55:36,314 WARNING _log(96)  * Debugger is active!
+2024-02-04 01:55:36,314 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 01:55:38,046 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 01:55:38] "GET / HTTP/1.1" 200 -
+2024-02-04 01:55:38,149 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 01:55:38] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 01:55:38,149 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 01:55:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 01:55:38,167 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 01:55:38] "[36mGET /static/images/traffic.png HTTP/1.1[0m" 304 -
+2024-02-04 01:55:51,194 INFO save_to_excel(67) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 01:55:51,199 INFO scriptcopy(86) working 3.0.py has been copied to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch with the name delft_to_schiphol.py
+2024-02-04 01:55:51,199 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 01:55:51] "POST /submit HTTP/1.1" 200 -
+2024-02-04 01:55:51,905 INFO _log(96)  * Detected change in 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\users\\ch\\delft_to_schiphol.py', reloading
+2024-02-04 01:59:18,017 INFO _log(96)  * Restarting with stat
+2024-02-04 01:59:19,304 WARNING _log(96)  * Debugger is active!
+2024-02-04 01:59:19,309 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 02:41:24,922 INFO _log(96)  * Detected change in 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\templates\\pythoncopy.py', reloading
+2024-02-04 02:41:28,452 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-04 02:41:28,452 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-04 02:41:28,459 INFO _log(96)  * Restarting with stat
+2024-02-04 02:41:29,473 WARNING _log(96)  * Debugger is active!
+2024-02-04 02:41:29,482 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 02:41:34,553 INFO _log(96)  * Detected change in 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\templates\\pythoncopy.py', reloading
+2024-02-04 02:42:25,745 INFO _log(96)  * Restarting with stat
+2024-02-04 02:42:26,862 WARNING _log(96)  * Debugger is active!
+2024-02-04 02:42:26,878 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 02:42:27,109 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 02:42:27] "GET /home.html HTTP/1.1" 200 -
+2024-02-04 02:42:27,109 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 02:42:27] "GET /home.html HTTP/1.1" 200 -
+2024-02-04 02:42:27,996 INFO save_to_excel(67) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 02:42:27,996 INFO save_to_excel(67) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 02:42:28,006 INFO scriptcopy(86) templates/pythoncopy.py has been copied to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch with the name delft_to_schiphol.py
+2024-02-04 02:42:28,008 INFO scriptcopy(86) templates/pythoncopy.py has been copied to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch with the name delft_to_schiphol.py
+2024-02-04 02:42:28,011 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 02:42:28] "POST /submit HTTP/1.1" 200 -
+2024-02-04 02:42:28,011 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 02:42:28] "POST /submit HTTP/1.1" 200 -
+2024-02-04 02:53:58,117 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-04 02:53:58,117 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-04 02:53:58,124 INFO _log(96)  * Restarting with stat
+2024-02-04 02:53:59,298 WARNING _log(96)  * Debugger is active!
+2024-02-04 02:53:59,298 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 02:54:11,199 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 02:54:11] "GET / HTTP/1.1" 200 -
+2024-02-04 02:54:11,517 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 02:54:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 02:54:11,539 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 02:54:11] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 02:54:18,296 INFO save_to_excel(67) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 02:54:18,299 INFO scriptcopy(86) templates/pythoncopy.py has been copied to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch with the name delft_to_schiphol.py
+2024-02-04 02:54:18,299 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 02:54:18] "POST /submit HTTP/1.1" 200 -
+2024-02-04 02:54:19,096 INFO _log(96)  * Detected change in 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\users\\ch\\delft_to_schiphol.py', reloading
+2024-02-04 02:55:33,663 INFO _log(96)  * Restarting with stat
+2024-02-04 02:55:34,787 WARNING _log(96)  * Debugger is active!
+2024-02-04 02:55:34,787 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 03:06:00,223 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-04 03:06:00,223 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-04 03:06:00,223 INFO _log(96)  * Restarting with stat
+2024-02-04 03:06:01,271 WARNING _log(96)  * Debugger is active!
+2024-02-04 03:06:01,271 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 03:06:07,239 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:06:07] "GET /home.html HTTP/1.1" 200 -
+2024-02-04 03:06:07,563 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:06:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 03:06:07,582 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:06:07] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 03:06:07,592 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:06:07] "[36mGET /static/images/traffic.png HTTP/1.1[0m" 304 -
+2024-02-04 03:06:11,042 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:06:11] "GET /home.html HTTP/1.1" 200 -
+2024-02-04 03:06:11,306 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:06:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 03:06:11,373 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:06:11] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 03:06:19,417 INFO save_to_excel(67) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 03:06:19,422 INFO scriptcopy(86) templates/pythoncopy.py has been copied to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch with the name delft_to_schiphol.py
+2024-02-04 03:06:19,426 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:06:19] "POST /submit HTTP/1.1" 200 -
+2024-02-04 03:07:03,804 INFO _log(96)  * Detected change in 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\templates\\pythoncopy.py', reloading
+2024-02-04 03:07:09,806 INFO _log(96)  * Restarting with stat
+2024-02-04 03:07:11,055 WARNING _log(96)  * Debugger is active!
+2024-02-04 03:07:11,058 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 03:07:13,557 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:07:13] "GET /home.html HTTP/1.1" 200 -
+2024-02-04 03:07:13,873 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:07:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 03:07:13,897 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:07:13] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 03:07:13,897 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:07:13] "[36mGET /static/images/traffic.png HTTP/1.1[0m" 304 -
+2024-02-04 03:07:21,813 INFO save_to_excel(67) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 03:07:21,816 INFO scriptcopy(86) templates/pythoncopy.py has been copied to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch with the name delft_to_schiphol.py
+2024-02-04 03:07:21,820 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:07:21] "POST /submit HTTP/1.1" 200 -
+2024-02-04 03:07:22,602 INFO _log(96)  * Detected change in 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\users\\ch\\delft_to_schiphol.py', reloading
+2024-02-04 03:07:51,084 INFO _log(96)  * Restarting with stat
+2024-02-04 03:07:52,094 WARNING _log(96)  * Debugger is active!
+2024-02-04 03:07:52,111 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 03:44:38,165 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-04 03:44:38,169 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-04 03:44:38,187 INFO _log(96)  * Restarting with stat
+2024-02-04 03:44:40,029 WARNING _log(96)  * Debugger is active!
+2024-02-04 03:44:40,047 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 03:44:42,241 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:44:42] "GET / HTTP/1.1" 200 -
+2024-02-04 03:44:42,424 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:44:42] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 03:44:42,424 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:44:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 03:44:42,461 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:44:42] "[36mGET /static/images/traffic.png HTTP/1.1[0m" 304 -
+2024-02-04 03:44:57,868 INFO save_to_excel(67) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 03:44:57,879 INFO scriptcopy(91) templates/pythoncopy.py has been copied to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch with the name delft_to_schiphol.py
+2024-02-04 03:44:57,893 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:44:57] "POST /submit HTTP/1.1" 200 -
+2024-02-04 03:44:58,089 INFO _log(96)  * Detected change in 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\users\\ch\\delft_to_schiphol.py', reloading
+2024-02-04 03:46:24,889 INFO _log(96)  * Restarting with stat
+2024-02-04 03:46:26,801 WARNING _log(96)  * Debugger is active!
+2024-02-04 03:46:26,809 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 03:46:36,523 INFO save_to_excel(69) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\delft_to_schiphol.xlsx
+2024-02-04 03:47:14,716 INFO save_to_excel(69) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\delft_to_schiphol.xlsx
+2024-02-04 03:55:24,640 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-04 03:55:24,640 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-04 03:55:24,676 INFO _log(96)  * Restarting with stat
+2024-02-04 03:55:26,448 WARNING _log(96)  * Debugger is active!
+2024-02-04 03:55:26,448 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 03:55:36,873 ERROR submit(145) API call failed: [Errno 13] Permission denied: 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\users\\ch\\delft_to_schiphol.xlsx'
+2024-02-04 03:55:37,065 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:55:37] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-02-04 03:55:37,304 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:55:37] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-04 03:55:37,449 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:55:37] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-04 03:55:37,898 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:55:37] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-04 03:55:38,094 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:55:38] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-04 03:55:47,055 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:55:47] "GET / HTTP/1.1" 200 -
+2024-02-04 03:55:47,123 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:55:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 03:55:47,160 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:55:47] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 03:55:53,960 ERROR submit(145) API call failed: [Errno 13] Permission denied: 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\users\\ch\\delft_to_schiphol.xlsx'
+2024-02-04 03:55:54,081 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:55:54] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-02-04 03:55:54,492 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:55:54] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-04 03:55:54,492 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:55:54] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-04 03:55:54,744 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:55:54] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-04 03:56:49,428 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-04 03:56:49,428 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-04 03:56:49,440 INFO _log(96)  * Restarting with stat
+2024-02-04 03:56:51,341 WARNING _log(96)  * Debugger is active!
+2024-02-04 03:56:51,341 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 03:56:54,011 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:56:54] "GET / HTTP/1.1" 200 -
+2024-02-04 03:56:54,163 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:56:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 03:56:54,163 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:56:54] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 03:56:54,190 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:56:54] "[36mGET /static/images/traffic.png HTTP/1.1[0m" 304 -
+2024-02-04 03:57:05,873 ERROR submit(145) API call failed: [Errno 13] Permission denied: 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\users\\ch\\delft_to_schiphol.xlsx'
+2024-02-04 03:57:06,010 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:57:06] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-02-04 03:57:06,116 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:57:06] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-04 03:57:06,432 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:57:06] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-04 03:57:06,813 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:57:06] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-04 03:57:56,144 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-04 03:57:56,144 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-04 03:57:56,151 INFO _log(96)  * Restarting with stat
+2024-02-04 03:57:58,041 WARNING _log(96)  * Debugger is active!
+2024-02-04 03:57:58,051 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 03:58:02,993 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:58:02] "GET / HTTP/1.1" 200 -
+2024-02-04 03:58:03,172 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:58:03] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 03:58:03,177 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:58:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 03:58:03,197 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:58:03] "[36mGET /static/images/traffic.png HTTP/1.1[0m" 304 -
+2024-02-04 03:58:13,673 ERROR submit(145) API call failed: [Errno 13] Permission denied: 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\users\\ch\\delft_to_schiphol.xlsx'
+2024-02-04 03:58:13,779 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:58:13] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-02-04 03:58:13,911 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:58:13] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-04 03:58:14,215 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:58:14] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-04 03:58:14,595 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 03:58:14] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-04 04:00:53,654 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:00:53] "GET /home.html HTTP/1.1" 200 -
+2024-02-04 04:00:53,906 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:00:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 04:00:54,042 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:00:54] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 04:00:54,054 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:00:54] "[36mGET /static/images/traffic.png HTTP/1.1[0m" 304 -
+2024-02-04 04:01:08,795 INFO save_to_excel(67) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 04:01:08,798 ERROR submit(145) API call failed: scriptcopy() missing 1 required positional argument: 'user_name'
+2024-02-04 04:01:08,925 INFO save_to_excel(67) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 04:01:08,938 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:01:08] "POST /submit HTTP/1.1" 200 -
+2024-02-04 04:01:29,942 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:01:29] "GET /home.html HTTP/1.1" 200 -
+2024-02-04 04:01:30,184 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:01:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 04:01:30,321 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:01:30] "[36mGET /static/images/traffic.png HTTP/1.1[0m" 304 -
+2024-02-04 04:01:30,338 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:01:30] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 04:01:41,352 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:01:41] "GET /home.html HTTP/1.1" 200 -
+2024-02-04 04:01:41,733 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:01:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 04:01:41,744 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:01:41] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 04:01:50,260 INFO save_to_excel(67) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 04:01:50,260 ERROR submit(145) API call failed: scriptcopy() missing 1 required positional argument: 'user_name'
+2024-02-04 04:01:50,440 INFO save_to_excel(67) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 04:01:50,441 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:01:50] "POST /submit HTTP/1.1" 200 -
+2024-02-04 04:10:00,250 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-04 04:10:00,261 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-04 04:10:00,266 INFO _log(96)  * Restarting with stat
+2024-02-04 04:10:01,917 WARNING _log(96)  * Debugger is active!
+2024-02-04 04:10:01,917 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 04:10:05,632 INFO save_to_excel(67) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 04:10:05,632 ERROR submit(145) API call failed: scriptcopy() missing 3 required positional arguments: 'user_name', 'file_path', and 'file_name'
+2024-02-04 04:10:05,702 INFO save_to_excel(67) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 04:10:05,722 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:10:05] "POST /submit HTTP/1.1" 200 -
+2024-02-04 04:10:06,613 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:10:06] "GET /home.html HTTP/1.1" 200 -
+2024-02-04 04:10:06,970 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:10:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 04:10:06,978 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:10:06] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 04:10:07,230 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:10:07] "[36mGET /static/images/traffic.png HTTP/1.1[0m" 304 -
+2024-02-04 04:10:13,986 INFO save_to_excel(67) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 04:10:13,986 ERROR submit(145) API call failed: scriptcopy() missing 3 required positional arguments: 'user_name', 'file_path', and 'file_name'
+2024-02-04 04:10:14,119 INFO save_to_excel(67) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 04:10:14,119 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:10:14] "POST /submit HTTP/1.1" 200 -
+2024-02-04 04:15:04,998 INFO _log(96)  * Detected change in 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\templates\\pythoncopy.py', reloading
+2024-02-04 04:15:11,031 INFO _log(96)  * Restarting with stat
+2024-02-04 04:15:12,933 WARNING _log(96)  * Debugger is active!
+2024-02-04 04:15:12,949 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 04:15:20,169 INFO save_to_excel(67) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 04:15:20,169 ERROR submit(145) API call failed: scriptcopy() missing 3 required positional arguments: 'user_name', 'file_path', and 'file_name'
+2024-02-04 04:15:20,294 INFO save_to_excel(67) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 04:15:20,315 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:15:20] "POST /submit HTTP/1.1" 200 -
+2024-02-04 04:15:22,801 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:15:22] "GET /home.html HTTP/1.1" 200 -
+2024-02-04 04:15:23,209 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:15:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 04:15:23,216 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:15:23] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 04:15:23,454 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:15:23] "[36mGET /static/images/traffic.png HTTP/1.1[0m" 304 -
+2024-02-04 04:15:30,673 INFO save_to_excel(67) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 04:15:30,675 ERROR submit(145) API call failed: scriptcopy() missing 3 required positional arguments: 'user_name', 'file_path', and 'file_name'
+2024-02-04 04:15:30,787 INFO save_to_excel(67) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 04:15:30,799 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:15:30] "POST /submit HTTP/1.1" 200 -
+2024-02-04 04:18:18,527 INFO _log(96)  * Detected change in 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\templates\\pythoncopy.py', reloading
+2024-02-04 04:18:22,735 INFO _log(96)  * Restarting with stat
+2024-02-04 04:18:24,483 WARNING _log(96)  * Debugger is active!
+2024-02-04 04:18:24,495 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 04:18:41,930 INFO save_to_excel(67) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 04:18:41,940 ERROR submit(145) API call failed: scriptcopy() missing 3 required positional arguments: 'user_name', 'file_path', and 'file_name'
+2024-02-04 04:18:42,059 INFO save_to_excel(67) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 04:18:42,078 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:18:42] "POST /submit HTTP/1.1" 200 -
+2024-02-04 04:18:48,140 INFO save_to_excel(67) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 04:18:48,144 ERROR submit(145) API call failed: scriptcopy() missing 3 required positional arguments: 'user_name', 'file_path', and 'file_name'
+2024-02-04 04:18:48,271 INFO save_to_excel(67) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 04:18:48,277 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:18:48] "POST /submit HTTP/1.1" 200 -
+2024-02-04 04:18:52,843 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:18:52] "GET /home.html HTTP/1.1" 200 -
+2024-02-04 04:18:53,094 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:18:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 04:18:53,219 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:18:53] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 04:18:53,227 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:18:53] "[36mGET /static/images/traffic.png HTTP/1.1[0m" 304 -
+2024-02-04 04:19:02,179 INFO save_to_excel(67) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 04:19:02,179 ERROR submit(145) API call failed: scriptcopy() missing 3 required positional arguments: 'user_name', 'file_path', and 'file_name'
+2024-02-04 04:19:02,329 INFO save_to_excel(67) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 04:19:02,338 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:19:02] "POST /submit HTTP/1.1" 200 -
+2024-02-04 04:23:09,942 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-04 04:23:09,943 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-04 04:23:09,943 INFO _log(96)  * Restarting with stat
+2024-02-04 04:23:11,690 WARNING _log(96)  * Debugger is active!
+2024-02-04 04:23:11,701 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 04:23:13,115 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:23:13] "GET /home.html HTTP/1.1" 200 -
+2024-02-04 04:23:13,514 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:23:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 04:23:13,565 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:23:13] "[36mGET /static/images/traffic.png HTTP/1.1[0m" 304 -
+2024-02-04 04:23:13,641 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:23:13] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 04:23:24,642 INFO save_to_excel(67) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\schiphol_to_delft.xlsx
+2024-02-04 04:23:24,642 ERROR submit(145) API call failed: scriptcopy() missing 3 required positional arguments: 'user_name', 'file_path', and 'file_name'
+2024-02-04 04:23:24,788 INFO save_to_excel(67) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\schiphol_to_delft.xlsx
+2024-02-04 04:23:24,799 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:23:24] "POST /submit HTTP/1.1" 200 -
+2024-02-04 04:29:12,127 INFO _log(96)  * Detected change in 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\templates\\pythoncopy.py', reloading
+2024-02-04 04:31:01,607 INFO _log(96)  * Restarting with stat
+2024-02-04 04:31:03,424 WARNING _log(96)  * Debugger is active!
+2024-02-04 04:31:03,424 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 04:31:12,938 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:31:12] "GET /home.html HTTP/1.1" 200 -
+2024-02-04 04:31:13,284 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:31:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 04:31:13,341 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:31:13] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 04:31:13,346 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:31:13] "[36mGET /static/images/traffic.png HTTP/1.1[0m" 304 -
+2024-02-04 04:31:15,120 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:31:15] "GET /home.html HTTP/1.1" 200 -
+2024-02-04 04:31:15,374 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:31:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 04:31:15,532 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:31:15] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 04:31:23,717 ERROR submit(145) API call failed: [Errno 13] Permission denied: 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\users\\ch\\delft_to_schiphol.xlsx'
+2024-02-04 04:31:23,852 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:31:23] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-02-04 04:31:24,286 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:31:24] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-04 04:31:24,294 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:31:24] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-04 04:31:24,543 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:31:24] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-04 04:31:24,702 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:31:24] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-04 04:33:49,735 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-04 04:33:49,735 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-04 04:33:49,746 INFO _log(96)  * Restarting with stat
+2024-02-04 04:33:51,773 WARNING _log(96)  * Debugger is active!
+2024-02-04 04:33:51,781 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 04:33:59,512 ERROR submit(137) API call failed: [Errno 13] Permission denied: 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\users\\ch\\delft_to_schiphol.xlsx'
+2024-02-04 04:33:59,627 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:33:59] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-02-04 04:33:59,901 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:33:59] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-04 04:34:00,059 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:34:00] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-04 04:34:00,403 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:34:00] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-04 04:34:06,709 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:34:06] "GET /home.html HTTP/1.1" 200 -
+2024-02-04 04:34:07,095 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:34:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 04:34:07,095 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:34:07] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 04:34:16,075 ERROR submit(137) API call failed: [Errno 13] Permission denied: 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\users\\ch\\delft_to_schiphol.xlsx'
+2024-02-04 04:34:16,219 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:34:16] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-02-04 04:34:16,613 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:34:16] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-04 04:34:16,613 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:34:16] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-04 04:34:16,880 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:34:16] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-04 04:39:01,410 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-04 04:39:01,415 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-04 04:39:01,423 INFO _log(96)  * Restarting with stat
+2024-02-04 04:39:03,194 WARNING _log(96)  * Debugger is active!
+2024-02-04 04:39:03,208 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 04:39:10,161 ERROR submit(141) API call failed: [Errno 13] Permission denied: 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\users\\ch\\delft_to_schiphol.xlsx'
+2024-02-04 04:39:10,261 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:39:10] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-02-04 04:39:10,526 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:39:10] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-04 04:39:10,678 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:39:10] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-04 04:39:11,009 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:39:11] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-04 04:42:13,122 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-04 04:42:13,127 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-04 04:42:13,132 INFO _log(96)  * Restarting with stat
+2024-02-04 04:42:14,899 WARNING _log(96)  * Debugger is active!
+2024-02-04 04:42:14,899 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 04:42:15,784 ERROR submit(141) API call failed: [Errno 13] Permission denied: 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\users\\ch\\delft_to_schiphol.xlsx'
+2024-02-04 04:42:15,834 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:42:15] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-02-04 04:42:16,020 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:42:16] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-04 04:42:16,242 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:42:16] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-04 04:42:16,592 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:42:16] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-04 04:43:20,294 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-04 04:43:20,295 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-04 04:43:20,303 INFO _log(96)  * Restarting with stat
+2024-02-04 04:43:22,109 WARNING _log(96)  * Debugger is active!
+2024-02-04 04:43:22,109 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 04:43:22,918 ERROR submit(140) API call failed: [Errno 13] Permission denied: 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\users\\ch\\delft_to_schiphol.xlsx'
+2024-02-04 04:43:22,972 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:43:22] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-02-04 04:43:23,126 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:43:23] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-04 04:43:23,364 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:43:23] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-04 04:43:23,714 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:43:23] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-04 04:44:44,660 INFO save_to_excel(67) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 04:44:44,671 ERROR submit(140) API call failed: scriptcopy() missing 1 required positional argument: 'user_name'
+2024-02-04 04:44:44,792 INFO save_to_excel(67) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 04:44:44,810 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:44:44] "POST /submit HTTP/1.1" 200 -
+2024-02-04 04:49:11,422 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-04 04:49:11,422 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-04 04:49:11,443 INFO _log(96)  * Restarting with stat
+2024-02-04 04:49:13,176 WARNING _log(96)  * Debugger is active!
+2024-02-04 04:49:13,176 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 04:49:13,629 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:49:13] "GET /home.html HTTP/1.1" 200 -
+2024-02-04 04:49:13,779 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:49:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 04:49:13,994 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:49:13] "[36mGET /static/images/traffic.png HTTP/1.1[0m" 304 -
+2024-02-04 04:49:14,129 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:49:14] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 04:49:30,206 INFO save_to_excel(67) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 04:49:30,206 ERROR submit(135) API call failed: scriptcopy() missing 1 required positional argument: 'user_name'
+2024-02-04 04:49:30,341 INFO save_to_excel(67) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 04:49:30,341 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:49:30] "POST /submit HTTP/1.1" 200 -
+2024-02-04 04:52:08,072 INFO _log(96)  * Detected change in 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\working 3.0.py', reloading
+2024-02-04 04:55:15,768 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-04 04:55:15,776 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-04 04:55:15,784 INFO _log(96)  * Restarting with stat
+2024-02-04 04:55:17,724 WARNING _log(96)  * Debugger is active!
+2024-02-04 04:55:17,724 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 04:55:20,203 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:55:20] "GET / HTTP/1.1" 200 -
+2024-02-04 04:55:20,376 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:55:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 04:55:20,384 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:55:20] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 04:55:20,395 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:55:20] "[36mGET /static/images/traffic.png HTTP/1.1[0m" 304 -
+2024-02-04 04:55:30,760 INFO save_to_excel(65) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 04:55:30,776 INFO scriptcopy(78) templates/pythoncopy.py has been copied to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch with the name delft_to_schiphol.py
+2024-02-04 04:55:30,786 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:55:30] "POST /submit HTTP/1.1" 200 -
+2024-02-04 04:57:25,330 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-04 04:57:25,332 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-04 04:57:25,332 INFO _log(96)  * Restarting with stat
+2024-02-04 04:57:27,091 WARNING _log(96)  * Debugger is active!
+2024-02-04 04:57:27,106 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 04:57:34,199 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:57:34] "GET /home.html HTTP/1.1" 200 -
+2024-02-04 04:57:34,661 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:57:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 04:57:34,702 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:57:34] "[36mGET /static/images/traffic.png HTTP/1.1[0m" 304 -
+2024-02-04 04:57:34,817 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:57:34] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 04:57:41,065 ERROR extract_travel_time(37) No routes found in the response.
+2024-02-04 04:57:41,951 INFO save_to_excel(65) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_sch.xlsx
+2024-02-04 04:57:41,967 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:57:41] "POST /submit HTTP/1.1" 200 -
+2024-02-04 04:57:58,005 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:57:58] "GET /home.html HTTP/1.1" 200 -
+2024-02-04 04:57:58,354 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:57:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 04:57:58,368 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:57:58] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 04:57:58,617 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:57:58] "[36mGET /static/images/traffic.png HTTP/1.1[0m" 304 -
+2024-02-04 04:58:05,922 INFO save_to_excel(65) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 04:58:05,922 ERROR submit(129) API call failed: scriptcopy() missing 1 required positional argument: 'user_name'
+2024-02-04 04:58:06,084 INFO save_to_excel(65) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 04:58:06,085 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:58:06] "POST /submit HTTP/1.1" 200 -
+2024-02-04 04:58:54,029 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-04 04:58:54,036 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-04 04:58:54,043 INFO _log(96)  * Restarting with stat
+2024-02-04 04:58:55,755 WARNING _log(96)  * Debugger is active!
+2024-02-04 04:58:55,771 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 04:59:09,315 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:59:09] "GET /home.html HTTP/1.1" 200 -
+2024-02-04 04:59:09,615 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:59:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 04:59:09,692 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:59:09] "[36mGET /static/images/traffic.png HTTP/1.1[0m" 304 -
+2024-02-04 04:59:09,711 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:59:09] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 04:59:17,522 INFO save_to_excel(65) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 04:59:17,537 INFO scriptcopy(78) templates/pythoncopy.py has been copied to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch with the name delft_to_schiphol.py
+2024-02-04 04:59:17,574 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 04:59:17] "POST /submit HTTP/1.1" 200 -
+2024-02-04 05:32:08,975 ERROR run_script(109) API call failed: save_to_excel() missing 1 required positional argument: 'file_path'
+2024-02-04 05:33:58,125 ERROR run_script(109) API call failed: save_to_excel() missing 1 required positional argument: 'file_path'
+2024-02-04 05:40:15,821 ERROR run_script(111) API call failed: save_to_excel() missing 1 required positional argument: 'file_path'
+2024-02-04 14:28:42,497 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-04 14:28:42,497 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-04 14:28:42,508 INFO _log(96)  * Restarting with stat
+2024-02-04 14:28:44,421 WARNING _log(96)  * Debugger is active!
+2024-02-04 14:28:44,429 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 14:28:46,368 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 14:28:46] "GET / HTTP/1.1" 200 -
+2024-02-04 14:28:46,566 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 14:28:46] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-02-04 14:28:46,566 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 14:28:46] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-02-04 14:28:46,599 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 14:28:46] "GET /static/images/traffic.png HTTP/1.1" 200 -
+2024-02-04 14:28:47,123 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 14:28:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-02-04 14:28:50,556 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 14:28:50] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 14:28:58,662 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 14:28:58] "GET / HTTP/1.1" 200 -
+2024-02-04 14:28:58,738 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 14:28:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 14:28:58,739 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 14:28:58] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 14:28:58,874 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 14:28:58] "[36mGET /static/images/traffic.png HTTP/1.1[0m" 304 -
+2024-02-04 14:29:05,551 INFO save_to_excel(65) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 14:29:05,557 ERROR submit(134) API call failed: scriptcopy() missing 1 required positional argument: 'user_inputs'
+2024-02-04 14:29:05,665 INFO save_to_excel(65) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 14:29:05,673 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 14:29:05] "POST /submit HTTP/1.1" 200 -
+2024-02-04 14:29:06,167 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 14:29:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-02-04 14:31:31,433 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-04 14:31:31,433 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-04 14:31:31,438 INFO _log(96)  * Restarting with stat
+2024-02-04 14:31:33,253 WARNING _log(96)  * Debugger is active!
+2024-02-04 14:31:33,269 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 14:31:39,704 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 14:31:39] "GET /home.html HTTP/1.1" 200 -
+2024-02-04 14:31:40,100 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 14:31:40] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-02-04 14:31:40,136 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 14:31:40] "GET /static/images/traffic.png HTTP/1.1" 200 -
+2024-02-04 14:31:40,298 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 14:31:40] "GET /static/images/logo.png HTTP/1.1" 200 -
+2024-02-04 14:31:48,014 INFO save_to_excel(65) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_den_haag.xlsx
+2024-02-04 14:31:48,018 ERROR submit(153) API call failed: scriptcopy() missing 1 required positional argument: 'user_inputs'
+2024-02-04 14:31:48,090 INFO save_to_excel(65) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_den haag.xlsx
+2024-02-04 14:31:48,098 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 14:31:48] "POST /submit HTTP/1.1" 200 -
+2024-02-04 14:46:49,361 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-04 14:46:49,361 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-04 14:46:49,369 INFO _log(96)  * Restarting with stat
+2024-02-04 14:46:51,366 WARNING _log(96)  * Debugger is active!
+2024-02-04 14:46:51,372 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 14:46:54,429 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 14:46:54] "GET /home.html HTTP/1.1" 200 -
+2024-02-04 14:46:54,765 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 14:46:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 14:46:54,817 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 14:46:54] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 14:46:54,831 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 14:46:54] "[36mGET /static/images/traffic.png HTTP/1.1[0m" 304 -
+2024-02-04 14:47:01,623 INFO save_to_excel(65) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 14:47:01,623 ERROR submit(131) API call failed: scriptcopy() takes 3 positional arguments but 5 were given
+2024-02-04 14:47:01,769 INFO save_to_excel(65) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 14:47:01,784 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 14:47:01] "POST /submit HTTP/1.1" 200 -
+2024-02-04 14:50:15,422 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-04 14:50:15,422 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-04 14:50:15,428 INFO _log(96)  * Restarting with stat
+2024-02-04 14:50:17,089 WARNING _log(96)  * Debugger is active!
+2024-02-04 14:50:17,097 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 14:50:21,699 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 14:50:21] "GET /home.html HTTP/1.1" 200 -
+2024-02-04 14:50:22,063 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 14:50:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 14:50:22,074 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 14:50:22] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 14:50:22,108 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 14:50:22] "[36mGET /static/images/traffic.png HTTP/1.1[0m" 304 -
+2024-02-04 14:50:30,900 INFO save_to_excel(65) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 14:50:30,907 ERROR submit(131) API call failed: scriptcopy() takes 3 positional arguments but 5 were given
+2024-02-04 14:50:31,036 INFO save_to_excel(65) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 14:50:31,042 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 14:50:31] "POST /submit HTTP/1.1" 200 -
+2024-02-04 14:56:20,857 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-04 14:56:20,857 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-04 14:56:20,871 INFO _log(96)  * Restarting with stat
+2024-02-04 14:56:22,380 WARNING _log(96)  * Debugger is active!
+2024-02-04 14:56:22,391 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 14:56:24,310 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 14:56:24] "GET / HTTP/1.1" 200 -
+2024-02-04 14:56:24,508 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 14:56:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 14:56:24,509 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 14:56:24] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 14:56:24,529 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 14:56:24] "[36mGET /static/images/traffic.png HTTP/1.1[0m" 304 -
+2024-02-04 14:56:32,029 INFO save_to_excel(65) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 14:56:32,064 INFO scriptcopy(79) templates/pythoncopy.py has been copied to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch with the name delft_to_schiphol.py
+2024-02-04 14:56:32,072 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 14:56:32] "POST /submit HTTP/1.1" 200 -
+2024-02-04 14:59:26,075 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-04 14:59:26,077 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-04 14:59:26,083 INFO _log(96)  * Restarting with stat
+2024-02-04 14:59:28,017 WARNING _log(96)  * Debugger is active!
+2024-02-04 14:59:28,029 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 14:59:34,508 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 14:59:34] "GET /home.html HTTP/1.1" 200 -
+2024-02-04 14:59:34,888 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 14:59:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 14:59:34,914 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 14:59:34] "[36mGET /static/images/traffic.png HTTP/1.1[0m" 304 -
+2024-02-04 14:59:35,007 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 14:59:35] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 14:59:41,013 INFO save_to_excel(65) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 14:59:41,018 INFO scriptcopy(80) templates/pythoncopy.py has been copied to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch with the name delft_to_schiphol.py
+2024-02-04 14:59:41,024 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 14:59:41] "POST /submit HTTP/1.1" 200 -
+2024-02-04 14:59:42,550 INFO _log(96)  * Detected change in 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\users\\ch\\delft_to_schiphol.py', reloading
+2024-02-04 15:02:24,255 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 15:02:24] "GET /home.html HTTP/1.1" 200 -
+2024-02-04 15:02:25,080 INFO _log(96)  * Restarting with stat
+2024-02-04 15:02:27,384 WARNING _log(96)  * Debugger is active!
+2024-02-04 15:02:27,384 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 15:02:27,839 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 15:02:27] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 15:02:27,839 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 15:02:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 15:02:27,876 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 15:02:27] "[36mGET /static/images/traffic.png HTTP/1.1[0m" 304 -
+2024-02-04 15:02:39,950 INFO save_to_excel(65) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 15:02:39,957 INFO scriptcopy(80) templates/pythoncopy.py has been copied to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch with the name delft_to_schiphol.py
+2024-02-04 15:02:39,975 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 15:02:39] "POST /submit HTTP/1.1" 200 -
+2024-02-04 15:02:40,222 INFO _log(96)  * Detected change in 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\users\\ch\\delft_to_schiphol.py', reloading
+2024-02-04 15:05:33,654 INFO _log(96)  * Restarting with stat
+2024-02-04 15:05:35,616 WARNING _log(96)  * Debugger is active!
+2024-02-04 15:05:35,632 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 15:05:42,036 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 15:05:42] "GET /home.html HTTP/1.1" 200 -
+2024-02-04 15:05:42,404 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 15:05:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 15:05:42,480 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 15:05:42] "[36mGET /static/images/traffic.png HTTP/1.1[0m" 304 -
+2024-02-04 15:05:42,592 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 15:05:42] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 15:05:48,798 INFO save_to_excel(65) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 15:05:48,806 INFO scriptcopy(80) templates/pythoncopy.py has been copied to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch with the name delft_to_schiphol.py
+2024-02-04 15:05:48,822 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 15:05:48] "POST /submit HTTP/1.1" 200 -
+2024-02-04 15:05:49,134 INFO _log(96)  * Detected change in 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\users\\ch\\delft_to_schiphol.py', reloading
+2024-02-04 15:10:57,299 INFO _log(96)  * Restarting with stat
+2024-02-04 15:10:59,429 WARNING _log(96)  * Debugger is active!
+2024-02-04 15:10:59,429 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 15:13:46,548 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-04 15:13:46,553 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-04 15:13:46,559 INFO _log(96)  * Restarting with stat
+2024-02-04 15:13:48,396 WARNING _log(96)  * Debugger is active!
+2024-02-04 15:13:48,413 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 15:13:49,708 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 15:13:49] "GET /home.html HTTP/1.1" 200 -
+2024-02-04 15:13:50,046 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 15:13:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 15:13:50,066 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 15:13:50] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 15:13:50,075 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 15:13:50] "[36mGET /static/images/traffic.png HTTP/1.1[0m" 304 -
+2024-02-04 15:13:56,104 INFO save_to_excel(65) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 15:13:56,113 ERROR submit(133) API call failed: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2024-02-04 15:13:56,263 INFO save_to_excel(65) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 15:13:56,273 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 15:13:56] "POST /submit HTTP/1.1" 200 -
+2024-02-04 15:18:43,878 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-04 15:18:43,878 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-04 15:18:43,903 INFO _log(96)  * Restarting with stat
+2024-02-04 15:18:45,614 WARNING _log(96)  * Debugger is active!
+2024-02-04 15:18:45,614 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 15:19:00,475 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 15:19:00] "GET /home.html HTTP/1.1" 200 -
+2024-02-04 15:19:00,864 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 15:19:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 15:19:00,917 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 15:19:00] "[36mGET /static/images/traffic.png HTTP/1.1[0m" 304 -
+2024-02-04 15:19:00,985 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 15:19:00] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 15:19:07,713 INFO save_to_excel(65) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 15:19:07,726 ERROR submit(133) API call failed: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2024-02-04 15:19:07,864 INFO save_to_excel(65) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 15:19:07,882 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 15:19:07] "POST /submit HTTP/1.1" 200 -
+2024-02-04 15:21:00,483 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-04 15:21:00,500 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-04 15:21:00,500 INFO _log(96)  * Restarting with stat
+2024-02-04 15:21:02,389 WARNING _log(96)  * Debugger is active!
+2024-02-04 15:21:02,398 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 15:21:08,525 INFO save_to_excel(65) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 15:21:08,536 ERROR submit(133) API call failed: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2024-02-04 15:21:08,663 INFO save_to_excel(65) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 15:21:08,686 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 15:21:08] "POST /submit HTTP/1.1" 200 -
+2024-02-04 15:30:43,553 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-04 15:30:43,553 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-04 15:30:43,572 INFO _log(96)  * Restarting with stat
+2024-02-04 15:30:45,478 WARNING _log(96)  * Debugger is active!
+2024-02-04 15:30:45,489 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 15:30:49,249 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 15:30:49] "GET /home.html HTTP/1.1" 200 -
+2024-02-04 15:30:49,611 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 15:30:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 15:30:49,617 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 15:30:49] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 15:30:49,657 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 15:30:49] "[36mGET /static/images/traffic.png HTTP/1.1[0m" 304 -
+2024-02-04 15:30:59,533 INFO save_to_excel(65) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 15:30:59,533 INFO store_inputs(72) Inputs stored in C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\replicated_script.py: {'username': 'ch', 'origin': 'delft', 'destination': 'schiphol'}
+2024-02-04 15:30:59,590 INFO scriptcopy(79) templates/pythoncopy.py has been copied to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch with the name delft_to_schiphol.py
+2024-02-04 15:30:59,605 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 15:30:59] "POST /submit HTTP/1.1" 200 -
+2024-02-04 15:31:00,868 INFO _log(96)  * Detected change in 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\users\\ch\\delft_to_schiphol.py', reloading
+2024-02-04 15:34:39,561 INFO _log(96)  * Restarting with stat
+2024-02-04 15:34:41,417 WARNING _log(96)  * Debugger is active!
+2024-02-04 15:34:41,425 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 15:46:02,999 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-04 15:46:03,004 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-04 15:46:03,014 INFO _log(96)  * Restarting with stat
+2024-02-04 15:46:05,243 WARNING _log(96)  * Debugger is active!
+2024-02-04 15:46:05,245 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 15:46:08,793 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 15:46:08] "GET /home.html HTTP/1.1" 200 -
+2024-02-04 15:46:09,109 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 15:46:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 15:46:09,171 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 15:46:09] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 15:46:09,171 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 15:46:09] "[36mGET /static/images/traffic.png HTTP/1.1[0m" 304 -
+2024-02-04 15:46:16,063 INFO save_to_excel(65) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 15:46:16,098 INFO store_inputs(72) Inputs stored in C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\replicated_script.py: {'username': 'ch', 'origin': 'delft', 'destination': 'schiphol'}
+2024-02-04 15:46:16,118 INFO scriptcopy(79) templates/pythoncopy.py has been copied to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch with the name delft_to_schiphol.py
+2024-02-04 15:46:16,129 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 15:46:16] "POST /submit HTTP/1.1" 200 -
+2024-02-04 15:46:16,297 INFO _log(96)  * Detected change in 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\users\\ch\\delft_to_schiphol.py', reloading
+2024-02-04 15:48:14,542 INFO _log(96)  * Restarting with stat
+2024-02-04 15:48:16,479 WARNING _log(96)  * Debugger is active!
+2024-02-04 15:48:16,487 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 15:48:22,673 ERROR run_script(102) API call failed: save_to_excel() missing 1 required positional argument: 'file_path'
+2024-02-04 15:50:09,340 ERROR run_script(101) API call failed: save_to_excel() missing 1 required positional argument: 'file_path'
+2024-02-04 15:53:59,422 INFO save_to_excel(69) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 15:54:26,995 INFO save_to_excel(69) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 15:56:56,037 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-04 15:56:56,053 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-04 15:56:56,091 INFO _log(96)  * Restarting with stat
+2024-02-04 15:56:57,913 WARNING _log(96)  * Debugger is active!
+2024-02-04 15:56:57,920 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 15:57:10,113 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 15:57:10] "GET /home.html HTTP/1.1" 200 -
+2024-02-04 15:57:10,564 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 15:57:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 15:57:10,632 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 15:57:10] "[36mGET /static/images/traffic.png HTTP/1.1[0m" 304 -
+2024-02-04 15:57:10,690 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 15:57:10] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 15:57:18,416 INFO save_to_excel(65) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 15:57:18,434 INFO store_inputs(72) Inputs stored in C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\replicated_script.py: {'username': 'ch', 'origin': 'delft', 'destination': 'schiphol'}
+2024-02-04 15:57:18,445 INFO scriptcopy(79) templates/pythoncopy.py has been copied to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch with the name delft_to_schiphol.py
+2024-02-04 15:57:18,453 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 15:57:18] "POST /submit HTTP/1.1" 200 -
+2024-02-04 15:57:19,191 INFO _log(96)  * Detected change in 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\users\\ch\\replicated_script.py', reloading
+2024-02-04 15:58:51,527 INFO _log(96)  * Restarting with stat
+2024-02-04 15:58:53,350 WARNING _log(96)  * Debugger is active!
+2024-02-04 15:58:53,362 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 15:58:59,818 INFO save_to_excel(70) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 16:05:46,191 INFO save_to_excel(70) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 16:10:21,816 INFO save_to_excel(70) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\delft_to_schiphol.xlsx
+2024-02-04 16:12:46,661 INFO save_to_excel(70) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\delft_to_schiphol.xlsx
+2024-02-04 16:20:45,592 INFO save_to_excel(83) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\delft_to_schiphol.xlsx
+2024-02-04 16:29:48,112 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-04 16:29:48,113 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-04 16:29:48,120 INFO _log(96)  * Restarting with stat
+2024-02-04 16:29:50,400 WARNING _log(96)  * Debugger is active!
+2024-02-04 16:29:50,410 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 16:29:51,038 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 16:29:51] "GET /home.html HTTP/1.1" 200 -
+2024-02-04 16:29:51,355 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 16:29:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 16:29:51,408 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 16:29:51] "[36mGET /static/images/traffic.png HTTP/1.1[0m" 304 -
+2024-02-04 16:29:51,425 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 16:29:51] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 16:29:59,847 INFO save_to_excel(65) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 16:29:59,857 INFO store_inputs(72) Inputs stored in C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\replicated_script.py: {'username': 'ch', 'origin': 'delft', 'destination': 'schiphol'}
+2024-02-04 16:29:59,879 INFO scriptcopy(79) templates/pythoncopy.py has been copied to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch with the name delft_to_schiphol.py
+2024-02-04 16:29:59,888 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 16:29:59] "POST /submit HTTP/1.1" 200 -
+2024-02-04 16:30:00,740 INFO _log(96)  * Detected change in 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\users\\ch\\replicated_script.py', reloading
+2024-02-04 16:32:43,803 INFO _log(96)  * Restarting with stat
+2024-02-04 16:32:45,668 WARNING _log(96)  * Debugger is active!
+2024-02-04 16:32:45,682 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 16:32:58,938 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-04 16:32:58,943 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-04 16:32:58,948 INFO _log(96)  * Restarting with stat
+2024-02-04 16:33:00,805 WARNING _log(96)  * Debugger is active!
+2024-02-04 16:33:00,805 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 16:33:14,075 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 16:33:14] "GET /home.html HTTP/1.1" 200 -
+2024-02-04 16:33:14,410 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 16:33:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 16:33:14,486 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 16:33:14] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 16:33:14,494 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 16:33:14] "[36mGET /static/images/traffic.png HTTP/1.1[0m" 304 -
+2024-02-04 16:33:23,946 INFO save_to_excel(65) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 16:33:23,946 INFO store_inputs(72) Inputs stored in C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\replicated_script.py: {'username': 'ch', 'origin': 'delft', 'destination': 'schiphol'}
+2024-02-04 16:33:23,965 INFO scriptcopy(79) templates/pythoncopy.py has been copied to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch with the name delft_to_schiphol.py
+2024-02-04 16:33:23,965 INFO delete_inputs(92) File C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\replicated_script.py has been removed
+2024-02-04 16:33:23,983 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 16:33:23] "POST /submit HTTP/1.1" 200 -
+2024-02-04 16:33:25,573 INFO _log(96)  * Detected change in 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\users\\ch\\delft_to_schiphol.py', reloading
+2024-02-04 16:41:07,120 INFO _log(96)  * Restarting with stat
+2024-02-04 16:41:09,071 WARNING _log(96)  * Debugger is active!
+2024-02-04 16:41:09,076 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 16:41:10,625 INFO save_to_excel(65) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 16:41:10,625 INFO save_to_excel(65) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 16:41:10,625 INFO store_inputs(72) Inputs stored in C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\replicated_script.py: {'username': 'ch', 'origin': 'delft', 'destination': 'schiphol'}
+2024-02-04 16:41:10,635 INFO store_inputs(72) Inputs stored in C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\replicated_script.py: {'username': 'ch', 'origin': 'delft', 'destination': 'schiphol'}
+2024-02-04 16:41:10,639 INFO scriptcopy(79) templates/pythoncopy.py has been copied to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch with the name delft_to_schiphol.py
+2024-02-04 16:41:10,643 INFO delete_inputs(92) File C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\replicated_script.py has been removed
+2024-02-04 16:41:10,652 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 16:41:10] "POST /submit HTTP/1.1" 200 -
+2024-02-04 16:41:10,652 INFO scriptcopy(79) templates/pythoncopy.py has been copied to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch with the name delft_to_schiphol.py
+2024-02-04 16:41:10,660 ERROR delete_inputs(94) File removal failed: [WinError 2] The system cannot find the file specified: 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\users\\ch\\replicated_script.py'
+2024-02-04 16:41:10,660 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 16:41:10] "POST /submit HTTP/1.1" 200 -
+2024-02-04 16:41:11,113 INFO _log(96)  * Detected change in 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\users\\ch\\delft_to_schiphol.py', reloading
+2024-02-04 16:41:17,599 INFO _log(96)  * Restarting with stat
+2024-02-04 16:41:19,299 WARNING _log(96)  * Debugger is active!
+2024-02-04 16:41:19,305 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 16:41:43,972 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-04 16:41:43,972 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-04 16:41:43,978 INFO _log(96)  * Restarting with stat
+2024-02-04 16:41:45,568 WARNING _log(96)  * Debugger is active!
+2024-02-04 16:41:45,568 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 16:42:00,901 INFO save_to_excel(65) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 16:42:00,910 INFO store_inputs(72) Inputs stored in C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\replicated_script.py: {'username': 'ch', 'origin': 'delft', 'destination': 'schiphol'}
+2024-02-04 16:42:00,936 INFO scriptcopy(79) templates/pythoncopy.py has been copied to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch with the name delft_to_schiphol.py
+2024-02-04 16:42:00,960 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 16:42:00] "POST /submit HTTP/1.1" 200 -
+2024-02-04 16:42:01,537 INFO _log(96)  * Detected change in 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\users\\ch\\delft_to_schiphol.py', reloading
+2024-02-04 16:44:05,792 INFO _log(96)  * Restarting with stat
+2024-02-04 16:44:07,595 WARNING _log(96)  * Debugger is active!
+2024-02-04 16:44:07,595 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 16:49:52,886 INFO _log(96)  * Detected change in 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\templates\\pythoncopy.py', reloading
+2024-02-04 16:49:57,002 INFO _log(96)  * Restarting with stat
+2024-02-04 16:50:01,309 INFO _log(96) [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-04 16:50:01,309 INFO _log(96) [33mPress CTRL+C to quit[0m
+2024-02-04 16:50:01,334 INFO _log(96)  * Restarting with stat
+2024-02-04 16:50:03,087 WARNING _log(96)  * Debugger is active!
+2024-02-04 16:50:03,100 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 16:50:06,496 INFO _log(96)  * Detected change in 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\users\\ch\\delft_to_schiphol.py', reloading
+2024-02-04 16:50:57,727 INFO _log(96)  * Restarting with stat
+2024-02-04 16:50:59,621 WARNING _log(96)  * Debugger is active!
+2024-02-04 16:50:59,624 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 16:51:01,138 INFO save_to_excel(65) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 16:51:01,145 INFO store_inputs(72) Inputs stored in C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\replicated_script.py: {'username': 'ch', 'origin': 'delft', 'destination': 'schiphol'}
+2024-02-04 16:51:01,145 INFO save_to_excel(65) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 16:51:01,159 INFO scriptcopy(79) templates/pythoncopy.py has been copied to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch with the name delft_to_schiphol.py
+2024-02-04 16:51:01,179 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 16:51:01] "POST /submit HTTP/1.1" 200 -
+2024-02-04 16:51:01,196 INFO store_inputs(72) Inputs stored in C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\replicated_script.py: {'username': 'ch', 'origin': 'delft', 'destination': 'schiphol'}
+2024-02-04 16:51:01,204 INFO scriptcopy(79) templates/pythoncopy.py has been copied to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch with the name delft_to_schiphol.py
+2024-02-04 16:51:01,207 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 16:51:01] "POST /submit HTTP/1.1" 200 -
+2024-02-04 16:51:01,638 INFO _log(96)  * Detected change in 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\users\\ch\\delft_to_schiphol.py', reloading
+2024-02-04 16:51:15,914 INFO _log(96)  * Restarting with stat
+2024-02-04 16:51:17,603 WARNING _log(96)  * Debugger is active!
+2024-02-04 16:51:17,619 INFO _log(96)  * Debugger PIN: 151-308-981
+2024-02-04 16:51:46,195 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 16:51:46] "GET /home.html HTTP/1.1" 200 -
+2024-02-04 16:51:46,489 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 16:51:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-02-04 16:51:46,592 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 16:51:46] "[36mGET /static/images/traffic.png HTTP/1.1[0m" 304 -
+2024-02-04 16:51:46,592 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 16:51:46] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2024-02-04 16:51:56,642 INFO save_to_excel(65) Data saved to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\delft_to_schiphol.xlsx
+2024-02-04 16:51:56,642 INFO store_inputs(72) Inputs stored in C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch\replicated_script.py: {'username': 'ch', 'origin': 'delft', 'destination': 'schiphol'}
+2024-02-04 16:51:56,666 INFO scriptcopy(79) templates/pythoncopy.py has been copied to C:\Users\info\OneDrive\Documents\Code stuff\Python-maps-avg\users\ch with the name delft_to_schiphol.py
+2024-02-04 16:51:56,668 INFO _log(96) 127.0.0.1 - - [04/Feb/2024 16:51:56] "POST /submit HTTP/1.1" 200 -
+2024-02-04 16:51:57,802 INFO _log(96)  * Detected change in 'C:\\Users\\info\\OneDrive\\Documents\\Code stuff\\Python-maps-avg\\users\\ch\\delft_to_schiphol.py', reloading
