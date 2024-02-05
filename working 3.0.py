@@ -7,6 +7,9 @@ from datetime import datetime
 import logging
 from logging.handlers import RotatingFileHandler
 import shutil
+import win32com.client
+import pythoncom
+from datetime import timedelta
 
 # Configure logging
 logging.basicConfig(
@@ -77,6 +80,7 @@ def scriptcopy(cleaned_origin, cleaned_destination, base_dir):
     try:
         shutil.copy(script_name, os.path.join(base_dir, copied_script_name))
         logger.info(f"{script_name} has been copied to {base_dir} with the name {copied_script_name}")
+        return copied_script_name
     except Exception as e:
         logger.error("Script duplication failed: " + str(e))
         data_to_save = {
@@ -92,6 +96,72 @@ def delete_inputs(base_dir):
         logger.info(f"File {file_path} has been removed")
     except Exception as e:
         logger.error("File removal failed: " + str(e))
+
+def schedule_task(base_dir, cleaned_origin, cleaned_destination, copied_script_name):
+    try:
+        pythoncom.CoInitialize()
+        # Initialize the constants
+        win32com.client.gencache.EnsureDispatch('Schedule.Service')
+        TASK_TRIGGER_DAILY = 2
+        TASK_CREATE_OR_UPDATE = 6
+        TASK_ACTION_EXEC = 0
+
+        scheduler = win32com.client.Dispatch('Schedule.Service')
+        scheduler.Connect()
+
+        root_folder = scheduler.GetFolder('\\')
+
+        task_def = scheduler.NewTask(0)
+
+        start_time = datetime.now() + timedelta(minutes=1)
+        trigger = task_def.Triggers.Create(TASK_TRIGGER_DAILY)
+        trigger.StartBoundary = start_time.isoformat()
+
+        action = task_def.Actions.Create()
+
+        # Check if the action is an ExecAction
+        if action.Type == win32com.client.constants.TASK_ACTION_EXEC:
+            # Now we can safely set the Path and Arguments properties
+            action.Path = "C:\\Users\\info\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe"
+            action.Arguments = f'{base_dir}, {copied_script_name}'
+            return action.path, action.arguments
+        else:
+            logger.error(f"Unexpected action type: {action.Type}")
+
+        action = task_def.Actions.Create(TASK_ACTION_EXEC)
+        action.Path = "C:\\Users\\info\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\python.exe"
+        action.Arguments = f'"{copied_script_name}"'
+        logger.info(action.arguments)
+
+        task_def.RegistrationInfo.Description = f"Task to run {copied_script_name} at {base_dir}"
+        task_def.Settings.Enabled = True
+        task_def.Settings.Hidden = False
+        task_def.Settings.StopIfGoingOnBatteries = False        
+
+        # Set the logon type and user
+        principal = task_def.Principal
+        principal.UserId = "info@chonathanit.com",  # User
+        principal.password = "@EV8FXaZ6YBUeWwrEUWr",  # Password
+        principal.LogonType = 1  # TASK_LOGON_PASSWORD
+
+        root_folder.RegisterTaskDefinition(
+            f"{cleaned_origin}_to_{cleaned_destination}",  # Task name
+            task_def,
+            TASK_CREATE_OR_UPDATE,
+            "info@chonathanit.com",  # User
+            "@EV8FXaZ6YBUeWwrEUWr",  # Password
+            win32com.client.constants.TASK_LOGON_PASSWORD,  # Logon type
+            )
+
+        logger.info(f'Task scheduled to run {base_dir} at {start_time}')
+    except Exception as e:
+        logger.error("Task scheduling failed: " + str(e))
+        data_to_save = {
+        'Date': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+        'Error': 'Task scheduling failed ' + str(e)
+    }
+    save_to_excel(data_to_save, base_dir, cleaned_origin, cleaned_destination)
+    
 
 @app.route('/')
 def index():
@@ -109,6 +179,7 @@ def submit():
     destination = data.get('destination')
     base_dir = os.path.join(directory,'users', user_name)
     cleaned_origin, cleaned_destination = cleaned_origin_and_destination(origin, destination)
+    copied_script_name = scriptcopy(cleaned_origin, cleaned_destination, base_dir)
 
     user_inputs = {
         'username' : user_name,
@@ -135,6 +206,7 @@ def submit():
                    save_to_excel(data_to_save, base_dir, cleaned_origin, cleaned_destination)
                    store_inputs(base_dir, user_inputs)
                    scriptcopy(cleaned_origin, cleaned_destination, base_dir)
+                   schedule_task(base_dir, cleaned_origin, cleaned_destination, copied_script_name)
                    #delete_inputs(base_dir)                  
             else:
                     data_to_save = {
@@ -166,4 +238,6 @@ def submit():
     else:
         logger.info(f"The path {excel_file_path} had an issue")
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
+
+   
