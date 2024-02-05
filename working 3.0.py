@@ -140,16 +140,16 @@ def schedule_task(base_dir, cleaned_origin, cleaned_destination, copied_script_n
 
         # Set the logon type and user
         principal = task_def.Principal
-        principal.UserId = "info@chonathanit.com",  # User
-        principal.password = "@EV8FXaZ6YBUeWwrEUWr",  # Password
+        principal.UserId = '',  # User
+        principal.password = '',  # Password
         principal.LogonType = 1  # TASK_LOGON_PASSWORD
 
         root_folder.RegisterTaskDefinition(
             f"{cleaned_origin}_to_{cleaned_destination}",  # Task name
             task_def,
             TASK_CREATE_OR_UPDATE,
-            "info@chonathanit.com",  # User
-            "@EV8FXaZ6YBUeWwrEUWr",  # Password
+            "",  # User
+            "",  # Password
             win32com.client.constants.TASK_LOGON_PASSWORD,  # Logon type
             )
 
